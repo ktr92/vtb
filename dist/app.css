@@ -16775,7 +16775,7 @@ ol.ui.list li[value]:before {
 	width: 100%;
 	background: #fff;
 	border: 1px solid rgba(34,36,38,.15);
-	border-radius: .28571429rem;
+	border-radius: 10px;
 	-webkit-box-shadow: 0 0 0 0 transparent inset;
 	box-shadow: 0 0 0 0 transparent inset;
 	padding: .62em 1em;
@@ -84893,6 +84893,41 @@ div.ErrorBoundary_title_QbiGu {
 	margin: 50px auto auto 100px;
 	color: #313131;
 }
+
+
+.selectbox {
+	cursor: pointer;
+	word-wrap: break-word;
+	line-height: 1em;
+	white-space: normal;
+	outline: 0;
+	-webkit-transform: rotateZ(0);
+	transform: rotateZ(0);
+	min-width: 14em;
+	min-height: 2.71428571em;
+	background: #fff;
+	display: inline-block;
+	padding: 0.78571429em 2.1em 0.78571429em 1em;
+	color: rgba(0,0,0,.87);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid rgba(34,36,38,.15);
+	-webkit-transition: width .1s ease,-webkit-box-shadow .1s ease;
+	transition: width .1s ease,-webkit-box-shadow .1s ease;
+	transition: box-shadow .1s ease,width .1s ease;
+	transition: box-shadow .1s ease,width .1s ease,-webkit-box-shadow .1s ease;
+	display: block;
+	width: 100%;
+	min-width: 0;
+	padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 18px;
+		border: 1px solid #e0e0e0;
+    border-radius: 10px;
+		height: 60px !important;
+    padding-top: 19px;
+}
+
 
 @media (max-width: 800px) {
 	.bspb .PaymentPage_paymentPage_pOgPa .PaymentPage_message_2gpAv {
