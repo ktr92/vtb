@@ -33,6 +33,10 @@ $(document).ready(function() {
       $(this).closest('.modals').removeClass('visible').removeClass('active').hide()
       $('body').removeClass('dimmable dimmed scrolling')
     })
+    $('.Uploader_uploadButton__2Oh-Z button').on('click', function(e) {
+      e.preventDefault()
+      $(this).siblings('input[type="file"]').trigger('click')
+    })
     
     $('.modalcall').on('click', function(e) {
       e.preventDefault()
