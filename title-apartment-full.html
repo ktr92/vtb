@@ -5,18 +5,15 @@
     <title>Официальный сервис заказа оценки коммерческой и жилой недвижимости для кредитования в ВТБ (ПАО)</title>
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно.">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-   
     <link href="dist/font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="dist/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
     <link rel="icon" href="dist/vtb_favicon.png" type="image/png">
-    
     <link href="dist/app.css?433ce296ae3896ccbd04" rel="stylesheet">
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно." data-react-helmet="true">
   </head>
   <body class="theme-kn vtb">
-    
     <div id="root">
       <div id="standardPageRoot" class="BaseLayout_root_2AHUj theme-kn">
         <div class="BaseLayout_headerWrapper_1Py4s BaseLayout_headerBaseColor_2QYDj">
@@ -30,9 +27,7 @@
                   <h3 class="BaseLayout_headerTitle_14z40">Сервис заказа оценки коммерческой и жилой недвижимости рекомендован ВТБ</h3>
                   <div class="BaseLayout_right_17Srl">
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlock_r6nN7 " href="/credit/order/">
-                     <!--  <div class="BaseLayout_image_-q7Sh">
-                        <i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i>
-                      </div> -->
+                      <!--  <div class="BaseLayout_image_-q7Sh"><i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i></div> -->
                       <span id="profileLink" class="ym-hide-content">+7986***8073</span>
                     </a>
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlockLogoff_234fX" id="profileBlockLogoffLink">Выйти</a>
@@ -47,10 +42,10 @@
         </div>
         <div id="contentBlock" class="BaseLayout_content_3xq4B">
           <div class="Auth_background_2j1GK"></div>
-          <div class="Auth_root_kDdMR" style="display: none;"></div>
+          <div class="Auth_root_kDdMR" style="display: none;" wfd-invisible="true"></div>
           <div class="Auth_root_kDdMR" style="display: flex;">
-            <h1 class="Main_title_3ti6n">Закажите оценку недвижимости для выдачи нового кредита в ВТБ (ПАО)</h1>
-            <div class="Main_hr_3hpXS"></div>
+            <h1 class="Main_title_3ti6n">Закажите оценку недвижимости для оформления квартиры в собственность или получения закладной в ВТБ (ПАО)</h1>
+            <div class="Main_hr_3hpXS" wfd-invisible="true"></div>
             <div class="Main_regionBlock_1fATW">
               <div class="ui message Main_creditingTypeMessage_3D8pS">
                 <span>Тип кредитования: </span>
@@ -59,8 +54,8 @@
               <div class="field">
                 <h3 class="Main_regionBlockTitle_1dR33">Выберите цель оценки: </h3>
                 <div class="field Main_field_12f_A">
-                  <div class="ui checked radio checkbox">
-                    <input class="hidden" id="credit" name="orderTypeGroup" readonly="" tabindex="0" type="radio" value="credit" checked="">
+                  <div class="ui radio checkbox">
+                    <input class="hidden" id="credit" name="orderTypeGroup" readonly="" tabindex="0" type="radio" value="credit">
                     <label for="credit">Для выдачи нового кредита</label>
                   </div>
                 </div>
@@ -72,8 +67,8 @@
                 </div>
                 <div class="field Main_field_12f_A">
                   <label>
-                    <div class="ui fitted radio checkbox Main_orderTypeLabel_3CX3d" style="position: absolute;">
-                      <input class="hidden" id="title" name="orderTypeGroup" readonly="" tabindex="0" type="radio" value="title">
+                    <div class="ui checked fitted radio checkbox Main_orderTypeLabel_3CX3d" style="position: absolute;">
+                      <input class="hidden" id="title" name="orderTypeGroup" readonly="" tabindex="0" type="radio" value="title" checked="">
                       <label for="title"></label>
                     </div>
                     <span class="Main_orderTypeLabel_3CX3d">Для оформления новостройки в собственность/регистрации закладной <small> (по ранее выданному кредиту на новостройку)</small>
@@ -83,25 +78,25 @@
               </div>
               <h3 class="Main_regionBlockTitle_1dR33">Выберите тип объекта для оценки: </h3>
               <div class="field">
-                <div class="ui checked radio checkbox">
-                  <input class="hidden" id="apartment" name="radioGroup" readonly="" tabindex="0" type="radio" value="APARTMENT" checked="">
+                <div class="ui checked disabled radio checkbox">
+                  <input class="hidden" id="apartment" name="radioGroup" readonly="" tabindex="-1" type="radio" value="APARTMENT" disabled="">
                   <label for="apartment">Квартира/Жилые апартаменты</label>
                 </div>
               </div>
               <div class="field">
-                <div class="ui radio checkbox">
-                  <input class="hidden" id="country_property" name="radioGroup" readonly="" tabindex="0" type="radio" value="COUNTRY_PROPERTY">
+                <div class="ui disabled radio checkbox">
+                  <input class="hidden" id="country_property" name="radioGroup" readonly="" tabindex="-1" type="radio" value="COUNTRY_PROPERTY" disabled="">
                   <label for="country_property">Индивидуальный жилой дом/Таунхаус/Земельный участок</label>
                 </div>
               </div>
               <div class="field">
-                <div class="ui radio checkbox">
-                  <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="0" type="radio" value="PARKING_PLACE_AND_STOREROOM">
+                <div class="ui disabled radio checkbox">
+                  <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="-1" type="radio" value="PARKING_PLACE_AND_STOREROOM" checked="" disabled="">
                   <label for="commercial">Машиноместа/кладовки</label>
                 </div>
-                <!-- <sup>
+                <sup>
                   <i aria-hidden="true" class="blue info circle large icon"></i>
-                </sup> -->
+                </sup>
               </div>
               <div class="ui form Order_row_20pIF Order_module_3I1DO">
                 <div class="Order_col_36Ya-">
@@ -111,7 +106,7 @@
                     </label>
                     <div class="Autocomplete_root__yI0E8" style="z-index: 1;">
                       <div style="display: inline-block;">
-                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="regionSelect" spellcheck="false" class=" " value="">
+                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="regionSelect" spellcheck="false" class="Autocomplete_disabled__3dX4R " value="г Москва" disabled="">
                       </div>
                     </div>
                   </div>
@@ -125,7 +120,7 @@
                     </label>
                     <div class="Autocomplete_root__yI0E8" style="z-index: 1;">
                       <div style="display: inline-block;">
-                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="streetSelect" spellcheck="false" maxlength="150" class=" " value="">
+                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="streetSelect" spellcheck="false" maxlength="150" class="Autocomplete_disabled__3dX4R " value="ул Адмирала Лазарева" disabled="">
                       </div>
                     </div>
                   </div>
@@ -135,20 +130,20 @@
                     <label class="Order_label_DR4L1">
                       <b>Квартира</b>
                     </label>
-                    <div class="ui fluid input 
+                    <div class="ui disabled fluid input 
               Input_root__2YHmd
               
               
-            "> 
-                      <input maxlength="9" id="flatNumber" type="text" value="" inputmode="text">
+            ">
+                      <input maxlength="9" id="flatNumber" type="text" value="22" inputmode="text" disabled="" tabindex="-1">
                     </div>
                   </div>
                 </div>
               </div>
               <div class="ui form Order_row_20pIF">
                 <div class="field">
-                  <div class="ui checkbox">
-                    <input class="hidden" id="inputManual" readonly="" tabindex="0" type="checkbox" value="">
+                  <div class="ui checked disabled checkbox">
+                    <input class="hidden" id="inputManual" readonly="" tabindex="-1" type="checkbox" value="" disabled="">
                     <label for="inputManual">Самостоятельный ввод адреса при отсутствии его в справочнике</label>
                   </div>
                 </div>
@@ -160,7 +155,7 @@
                       <b>Количество комнат</b>
                     </label>
                     <div class="Select_root__2yqJb">
-                      <select name="" id="" class='selectbox'>
+                      <select name="" id="" class='selectbox' disabled>
                         <option value="Не выбрано">Не выбрано</option>
                         <option value="Студия">Студия</option>
                         <option value="1-комнатная">1-комнатная</option>
@@ -169,33 +164,6 @@
                         <option value="4-комнатная и более">4-комнатная и более</option>
                         <option value="Свободная планировка">Свободная планировка</option>
                       </select><!-- /# -->
-                     <!--  <div id="objectRooms" role="listbox" aria-disabled="false" aria-expanded="false" aria-multiselectable="false" class="ui fluid selection dropdown" tabindex="0">
-                        <div class="default text" role="alert" aria-live="polite">Не выбрано</div>
-                        <i aria-hidden="true" class="dropdown icon"></i>
-                        <div class="menu transition">
-                          <div role="option" aria-checked="true" aria-selected="true" class="active selected item" style="pointer-events: all;">
-                            <span class="text">Не выбрано</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">Студия</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">1-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">2-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">3-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">4-комнатная и более</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">Свободная планировка</span>
-                          </div>
-                        </div>
-                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -204,24 +172,35 @@
                     <label class="Order_label_DR4L1">
                       <b>Этаж расположения</b>
                     </label>
-                    <div class="ui fluid input 
+                    <div class="ui disabled fluid input 
               Input_root__2YHmd
               
               
             ">
-                      <input maxlength="3" id="objectFloorByUser" type="text" value="" inputmode="numeric">
+                      <input maxlength="3" id="objectFloorByUser" type="text" value="22" inputmode="numeric" disabled="" tabindex="-1">
                     </div>
                   </div>
                 </div>
               </div>
               <div class="field">
-                <div class="Main_footerBtnsContainer_6rcaO">
-                  <div class="Main_buttonWrapper_1OqBg">
-                    <button class="ui huge button Main_backButton_2t0_F">Назад</button>
-                  </div>
-                  <div class="Main_buttonWrapper_1OqBg">
-                    <button id="makeOnlineOrderButton" class="ui huge primary button Main_button_2x-31">Далее</button>
-                  </div>
+                <div class="Main_footerBtnsContainer_6rcaO"></div>
+              </div>
+              <h3 class="Main_regionBlockTitle_1dR33">Выберите состояние объекта недвижимости <sup>
+                  <i aria-hidden="true" class="blue info circle large icon"></i>
+                </sup>: </h3>
+              <div class="field Main_field_12f_A">
+                <div class="ui radio checkbox">
+                  <input class="hidden" id="ObjectWithoutRepairs" name="radioObjectRepairs" readonly="" tabindex="0" type="radio" value="WITHOUT">
+                  <label for="ObjectWithoutRepairs">Без отделки</label>
+                </div>
+                <sup>
+                  <i aria-hidden="true" class="blue info circle large icon"></i>
+                </sup>
+              </div>
+              <div class="field Main_field_12f_A">
+                <div class="ui radio checkbox">
+                  <input class="hidden" id="ObjectWithRepairs" name="radioObjectRepairs" readonly="" tabindex="0" type="radio" value="WITH">
+                  <label for="ObjectWithRepairs">С отделкой</label>
                 </div>
               </div>
             </div>

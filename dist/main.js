@@ -21,18 +21,31 @@ $(document).ready(function() {
   })
 
 
-  $(document).ready(function () {
     $(document).click(function(event) {
         if (!$(event.target).closest(".menu,.dropdown").length) {
         $('.menu').removeClass('visible')
         $('.dropdown').removeClass('active')
         }
     });
+
+    $('.close').on('click', function(e) {
+      e.preventDefault()
+      $(this).closest('.modals').removeClass('visible').removeClass('active').hide()
+      $('body').removeClass('dimmable dimmed scrolling')
+    })
+    
+    $('.modalcall').on('click', function(e) {
+      e.preventDefault()
+      let modal = $(this).attr("data-modal")
+      $(`#${modal}`).addClass('visible').addClass('active').show()
+      $('body').addClass('dimmable dimmed scrolling')
+
+    })
     
    /*  $(document).keyup(function(e) {
         if (e.key === "Escape") { 
             $('.modal').modal('hide');
         }
     }); */
-});
+
 })
