@@ -45675,11 +45675,14 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 
 .Order_progress_3Yujv {
 	z-index: 10;
+	display: none;
 }
 
 .Order_progress_3Yujv .progress {
 	margin-bottom: 0 !important;
 }
+
+
 
 @media (max-width: 550px) {
 	.Order_street_2KvsK {
@@ -84927,6 +84930,10 @@ div.ErrorBoundary_title_QbiGu {
     border-radius: 10px;
 		height: 60px !important;
     padding-top: 19px;
+}
+
+.field i.blue.info.circle.large.icon {
+ display:none !important;
 }
 
 
