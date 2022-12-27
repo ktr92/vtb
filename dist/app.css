@@ -4749,7 +4749,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 i.flag:not(.icon):before {
 	display: inline-block;
 	content: '';
-	background: url(/dist/img/flags.png?9c74e172f87984c48ddf5c8108cabe67) no-repeat -108px -1976px;
+	background: url(dist/img/flags.png?9c74e172f87984c48ddf5c8108cabe67) no-repeat -108px -1976px;
 	width: 16px;
 	height: 11px;
 }
@@ -6400,7 +6400,7 @@ a.ui.inverted.grey.header:hover {
  * http://opensource.org/licenses/MIT
  *
  */@font-face {
-	font-family:Icons;src:url(icons/icons.eot);src:url(icons/icons.eot) format('embedded-opentype'),url(icons/icons.woff2) format('woff2'),url(icons/icons.woff) format('woff'),url(icons/icons.ttf) format('truetype'),url(/dist/img/icons.svg) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
+	font-family:Icons;src:url(icons/icons.eot);src:url(icons/icons.eot) format('embedded-opentype'),url(icons/icons.woff2) format('woff2'),url(icons/icons.woff) format('woff'),url(icons/icons.ttf) format('truetype'),url(dist/img/icons.svg) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
 }
 
 i.icon {
@@ -11512,7 +11512,7 @@ i.icon.youtube.play:before {
 }
 
 @font-face {
-	font-family:outline-icons;src:url(icons/outline-icons.eot?701ae6abd4719e9c2ada3535a497b341);src:url(icons/outline-icons.eot?701ae6abd4719e9c2ada3535a497b341?#iefix) format('embedded-opentype'),url(icons/outline-icons.woff2?cd6c777f1945164224dee082abaea03a) format('woff2'),url(icons/outline-icons.woff?ef60a4f6c25ef7f39f2d25a748dbecfe) format('woff'),url(icons/outline-icons.ttf?ad97afd3337e8cda302d10ff5a4026b8) format('truetype'),url(/dist/img/outline-icons.svg?82f60bd0b94a1ed68b1e6e309ce2e8c3#icons) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
+	font-family:outline-icons;src:url(icons/outline-icons.eot?701ae6abd4719e9c2ada3535a497b341);src:url(icons/outline-icons.eot?701ae6abd4719e9c2ada3535a497b341?#iefix) format('embedded-opentype'),url(icons/outline-icons.woff2?cd6c777f1945164224dee082abaea03a) format('woff2'),url(icons/outline-icons.woff?ef60a4f6c25ef7f39f2d25a748dbecfe) format('woff'),url(icons/outline-icons.ttf?ad97afd3337e8cda302d10ff5a4026b8) format('truetype'),url(dist/img/outline-icons.svg?82f60bd0b94a1ed68b1e6e309ce2e8c3#icons) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
 }
 
 i.icon.outline {
@@ -12000,7 +12000,7 @@ i.icon.star.empty:before {
 }
 
 @font-face {
-	font-family:brand-icons;src:url(icons/brand-icons.eot?13db00b7a34fee4d819ab7f9838cc428);src:url(icons/brand-icons.eot?13db00b7a34fee4d819ab7f9838cc428?#iefix) format('embedded-opentype'),url(icons/brand-icons.woff2?e8c322de9658cbeb8a774b6624167c2c) format('woff2'),url(icons/brand-icons.woff?a046592bac8f2fd96e994733faf3858c) format('woff'),url(icons/brand-icons.ttf?c5ebe0b32dc1b5cc449a76c4204d13bb) format('truetype'),url(/dist/img/brand-icons.svg?a1a749e89f578a49306ec2b055c073da#icons) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
+	font-family:brand-icons;src:url(icons/brand-icons.eot?13db00b7a34fee4d819ab7f9838cc428);src:url(icons/brand-icons.eot?13db00b7a34fee4d819ab7f9838cc428?#iefix) format('embedded-opentype'),url(icons/brand-icons.woff2?e8c322de9658cbeb8a774b6624167c2c) format('woff2'),url(icons/brand-icons.woff?a046592bac8f2fd96e994733faf3858c) format('woff'),url(icons/brand-icons.ttf?c5ebe0b32dc1b5cc449a76c4204d13bb) format('truetype'),url(dist/img/brand-icons.svg?a1a749e89f578a49306ec2b055c073da#icons) format('svg');font-style:normal;font-weight:400;font-variant:normal;text-decoration:inherit;text-transform:none;
 }
 
 i.icon.\35 00px,i.icon.accessible.icon,i.icon.accusoft,i.icon.adn,i.icon.adversal,i.icon.affiliatetheme,i.icon.algolia,i.icon.amazon,i.icon.amazon.pay,i.icon.amilia,i.icon.android,i.icon.angellist,i.icon.angrycreative,i.icon.angular,i.icon.app.store,i.icon.app.store.ios,i.icon.apper,i.icon.apple,i.icon.apple.pay,i.icon.asymmetrik,i.icon.audible,i.icon.autoprefixer,i.icon.avianex,i.icon.aviato,i.icon.aws,i.icon.bandcamp,i.icon.behance,i.icon.behance.square,i.icon.bimobject,i.icon.bitbucket,i.icon.bitcoin,i.icon.bity,i.icon.black.tie,i.icon.blackberry,i.icon.blogger,i.icon.blogger.b,i.icon.bluetooth,i.icon.bluetooth.b,i.icon.btc,i.icon.buromobelexperte,i.icon.buysellads,i.icon.cc.amazon.pay,i.icon.cc.amex,i.icon.cc.apple.pay,i.icon.cc.diners.club,i.icon.cc.discover,i.icon.cc.jcb,i.icon.cc.mastercard,i.icon.cc.paypal,i.icon.cc.stripe,i.icon.cc.visa,i.icon.centercode,i.icon.chrome,i.icon.cloudscale,i.icon.cloudsmith,i.icon.cloudversify,i.icon.codepen,i.icon.codiepie,i.icon.connectdevelop,i.icon.contao,i.icon.cpanel,i.icon.creative.commons,i.icon.css3,i.icon.css3.alternate,i.icon.cuttlefish,i.icon.d.and.d,i.icon.dashcube,i.icon.delicious,i.icon.deploydog,i.icon.deskpro,i.icon.deviantart,i.icon.digg,i.icon.digital.ocean,i.icon.discord,i.icon.discourse,i.icon.dochub,i.icon.docker,i.icon.draft2digital,i.icon.dribbble,i.icon.dribbble.square,i.icon.dropbox,i.icon.drupal,i.icon.dyalog,i.icon.earlybirds,i.icon.edge,i.icon.elementor,i.icon.ember,i.icon.empire,i.icon.envira,i.icon.erlang,i.icon.ethereum,i.icon.etsy,i.icon.expeditedssl,i.icon.facebook,i.icon.facebook.f,i.icon.facebook.messenger,i.icon.facebook.square,i.icon.firefox,i.icon.first.order,i.icon.firstdraft,i.icon.flickr,i.icon.flipboard,i.icon.fly,i.icon.font.awesome,i.icon.font.awesome.alternate,i.icon.font.awesome.flag,i.icon.fonticons,i.icon.fonticons.fi,i.icon.fort.awesome,i.icon.fort.awesome.alternate,i.icon.forumbee,i.icon.foursquare,i.icon.free.code.camp,i.icon.freebsd,i.icon.get.pocket,i.icon.gg,i.icon.gg.circle,i.icon.git,i.icon.git.square,i.icon.github,i.icon.github.alternate,i.icon.github.square,i.icon.gitkraken,i.icon.gitlab,i.icon.gitter,i.icon.glide,i.icon.glide.g,i.icon.gofore,i.icon.goodreads,i.icon.goodreads.g,i.icon.google,i.icon.google.drive,i.icon.google.play,i.icon.google.plus,i.icon.google.plus.g,i.icon.google.plus.square,i.icon.google.wallet,i.icon.gratipay,i.icon.grav,i.icon.gripfire,i.icon.grunt,i.icon.gulp,i.icon.hacker.news,i.icon.hacker.news.square,i.icon.hips,i.icon.hire.a.helper,i.icon.hooli,i.icon.hotjar,i.icon.houzz,i.icon.html5,i.icon.hubspot,i.icon.imdb,i.icon.instagram,i.icon.internet.explorer,i.icon.ioxhost,i.icon.itunes,i.icon.itunes.note,i.icon.jenkins,i.icon.joget,i.icon.joomla,i.icon.js,i.icon.js.square,i.icon.jsfiddle,i.icon.keycdn,i.icon.kickstarter,i.icon.kickstarter.k,i.icon.korvue,i.icon.laravel,i.icon.lastfm,i.icon.lastfm.square,i.icon.leanpub,i.icon.less,i.icon.linechat,i.icon.linkedin,i.icon.linkedin.alternate,i.icon.linkedin.in,i.icon.linode,i.icon.linux,i.icon.lyft,i.icon.magento,i.icon.maxcdn,i.icon.medapps,i.icon.medium,i.icon.medium.m,i.icon.medrt,i.icon.meetup,i.icon.microsoft,i.icon.mix,i.icon.mixcloud,i.icon.mizuni,i.icon.modx,i.icon.monero,i.icon.napster,i.icon.nintendo.switch,i.icon.node,i.icon.node.js,i.icon.npm,i.icon.ns8,i.icon.nutritionix,i.icon.odnoklassniki,i.icon.odnoklassniki.square,i.icon.opencart,i.icon.openid,i.icon.opera,i.icon.optin.monster,i.icon.osi,i.icon.page4,i.icon.pagelines,i.icon.palfed,i.icon.patreon,i.icon.paypal,i.icon.periscope,i.icon.phabricator,i.icon.phoenix.framework,i.icon.php,i.icon.pied.piper,i.icon.pied.piper.alternate,i.icon.pied.piper.pp,i.icon.pinterest,i.icon.pinterest.p,i.icon.pinterest.square,i.icon.playstation,i.icon.product.hunt,i.icon.pushed,i.icon.python,i.icon.qq,i.icon.quinscape,i.icon.quora,i.icon.ravelry,i.icon.react,i.icon.rebel,i.icon.reddit,i.icon.reddit.alien,i.icon.reddit.square,i.icon.redriver,i.icon.rendact,i.icon.renren,i.icon.replyd,i.icon.resolving,i.icon.rocketchat,i.icon.rockrms,i.icon.safari,i.icon.sass,i.icon.schlix,i.icon.scribd,i.icon.searchengin,i.icon.sellcast,i.icon.sellsy,i.icon.servicestack,i.icon.shirtsinbulk,i.icon.simplybuilt,i.icon.sistrix,i.icon.skyatlas,i.icon.skype,i.icon.slack,i.icon.slack.hash,i.icon.slideshare,i.icon.snapchat,i.icon.snapchat.ghost,i.icon.snapchat.square,i.icon.soundcloud,i.icon.speakap,i.icon.spotify,i.icon.stack.exchange,i.icon.stack.overflow,i.icon.staylinked,i.icon.steam,i.icon.steam.square,i.icon.steam.symbol,i.icon.sticker.mule,i.icon.strava,i.icon.stripe,i.icon.stripe.s,i.icon.studiovinari,i.icon.stumbleupon,i.icon.stumbleupon.circle,i.icon.superpowers,i.icon.supple,i.icon.telegram,i.icon.telegram.plane,i.icon.tencent.weibo,i.icon.themeisle,i.icon.trello,i.icon.tripadvisor,i.icon.tumblr,i.icon.tumblr.square,i.icon.twitch,i.icon.twitter,i.icon.twitter.square,i.icon.typo3,i.icon.uber,i.icon.uikit,i.icon.uniregistry,i.icon.untappd,i.icon.usb,i.icon.ussunnah,i.icon.vaadin,i.icon.viacoin,i.icon.viadeo,i.icon.viadeo.square,i.icon.viber,i.icon.vimeo,i.icon.vimeo.square,i.icon.vimeo.v,i.icon.vine,i.icon.vk,i.icon.vnv,i.icon.vuejs,i.icon.wechat,i.icon.weibo,i.icon.weixin,i.icon.whatsapp,i.icon.whatsapp.square,i.icon.whmcs,i.icon.wikipedia.w,i.icon.windows,i.icon.wordpress,i.icon.wordpress.simple,i.icon.wpbeginner,i.icon.wpexplorer,i.icon.wpforms,i.icon.xbox,i.icon.xing,i.icon.xing.square,i.icon.y.combinator,i.icon.yahoo,i.icon.yandex,i.icon.yandex.international,i.icon.yelp,i.icon.yoast,i.icon.youtube,i.icon.youtube.square {
@@ -33040,43 +33040,43 @@ div.Uploader_alert__13KFP > button {
 }
 
 .Uploader_pdf__2E8da {
-	background-image: url(/dist/img/pdf_logo.png?67913aadeebe5676bf92dfde8b0ed368);
+	background-image: url(dist/img/pdf_logo.png?67913aadeebe5676bf92dfde8b0ed368);
 }
 
 .Uploader_tiff__31Bx_ {
-	background-image: url(/dist/img/tiff_logo.jpg?49f8bcebfa8a978c52fc4a363fafd872);
+	background-image: url(dist/img/tiff_logo.jpg?49f8bcebfa8a978c52fc4a363fafd872);
 }
 
 .Uploader_doc__iZbFn {
-	background-image: url(/dist/img/word_logo.png?55a4bd7233454b4ca42d7e511bb49ce4);
+	background-image: url(dist/img/word_logo.png?55a4bd7233454b4ca42d7e511bb49ce4);
 }
 
 .Uploader_ppt__2j_Y2 {
-	background-image: url(/dist/img/ppt_logo.png?d41d14012252adc6ff966aef89e026a2);
+	background-image: url(dist/img/ppt_logo.png?d41d14012252adc6ff966aef89e026a2);
 }
 
 .Uploader_xls__2htmM {
-	background-image: url(/dist/img/excel_logo.png?30cbf0f3aea8d1126fa4c7dd0df3ffa0);
+	background-image: url(dist/img/excel_logo.png?30cbf0f3aea8d1126fa4c7dd0df3ffa0);
 }
 
 .Uploader_sig__3avHA {
-	background-image: url(/dist/img/sig_logo.png?ec93292233fc1048ae70030a6f2789e4);
+	background-image: url(dist/img/sig_logo.png?ec93292233fc1048ae70030a6f2789e4);
 }
 
 .Uploader_xml__jxQlT {
-	background-image: url(/dist/img/xml_logo.png?9ab57f886f404ea79dfb7d31cce586de);
+	background-image: url(dist/img/xml_logo.png?9ab57f886f404ea79dfb7d31cce586de);
 }
 
 .Uploader_html__3ELFn {
-	background-image: url(/dist/img/html_logo.png?78bf1873b214e96e2b344a28df5abfc8);
+	background-image: url(dist/img/html_logo.png?78bf1873b214e96e2b344a28df5abfc8);
 }
 
 .Uploader_file__3Ue87 {
-	background-image: url(/dist/img/file_logo.png?a1c8389e921d32a799283c87da929baf);
+	background-image: url(dist/img/file_logo.png?a1c8389e921d32a799283c87da929baf);
 }
 
 .Uploader_txt__1aC56 {
-	background-image: url(/dist/img/file_logo.png?a1c8389e921d32a799283c87da929baf);
+	background-image: url(dist/img/file_logo.png?a1c8389e921d32a799283c87da929baf);
 }
 
 .psb .Uploader_root__12YRV {
@@ -35313,7 +35313,7 @@ html .noselect,html .noselect * {
 	border: none !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
+	background-image: url(dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
 	background-repeat: no-repeat;
 	background-position: 14px 18px;
 	background-size: 24px auto;
@@ -35398,7 +35398,7 @@ body.domrf .ui.large.message.success i {
 body.domrf .ui.large.message.success i::before {
 	width: 24px !important;
 	height: 24px !important;
-	background-image: url(/dist/img/domrf_message_success_icon.svg?0399a7f86353fe1593b829b14a066261) !important;
+	background-image: url(dist/img/domrf_message_success_icon.svg?0399a7f86353fe1593b829b14a066261) !important;
 }
 
 body.domrf .ui.large.message.error {
@@ -35415,7 +35415,7 @@ body.domrf .ui.large.message.error i {
 body.domrf .ui.large.message.error i::before {
 	width: 24px !important;
 	height: 24px !important;
-	background-image: url(/dist/img/domrf_message_error_icon.svg?a67e3e03fd5b532c7a4f6e62f5d8f5b5) !important;
+	background-image: url(dist/img/domrf_message_error_icon.svg?a67e3e03fd5b532c7a4f6e62f5d8f5b5) !important;
 }
 
 body.domrf .ui.message.icon {
@@ -35494,7 +35494,7 @@ body.domrf .ui.selection.dropdown .menu {
 }
 
 body.domrf .ui.selection.dropdown i {
-	background-image: url(/dist/img/domrf_select_icon.svg?bf7d0916d8c99a2ef885c61b85bc81a7);
+	background-image: url(dist/img/domrf_select_icon.svg?bf7d0916d8c99a2ef885c61b85bc81a7);
 	background-repeat: no-repeat;
 	background-position: 0px 23px;
 }
@@ -37274,7 +37274,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .vtb .Index_headerMainPage_1_3mw {
 	width: 100%;
-	background-image: url(/dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
+	background-image: url(dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -37284,7 +37284,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 @media (max-width: 1090px) {
 	.vtb .Index_headerMainPage_1_3mw {
-		background-image: url(/dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
+		background-image: url(dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
 		height: 302px;
 	}
 }
@@ -38340,7 +38340,7 @@ i.info.Main_infoIcon_2k8X6 {
 	margin: 0 auto;
 	border-top: 1px solid rgba(0,0,0,0.1);
 	border-bottom: 1px solid rgba(0,0,0,0.1);
-	background-image: url(/dist/img/open_main_title_bg.jpg?d3c871267b129a5ffb3b20048b93c4f1);
+	background-image: url(dist/img/open_main_title_bg.jpg?d3c871267b129a5ffb3b20048b93c4f1);
 	background-repeat: no-repeat;
 	background-position: 100% center;
 }
@@ -38378,7 +38378,7 @@ i.info.Main_infoIcon_2k8X6 {
 	.open .Index_titleSection_KES47 .Index_mainTitleBg_GMNON {
 		height: 280px;
 		border-bottom: 1px solid rgba(0,0,0,0.1);
-		background-image: url(/dist/img/open_main_title_bg_tablet.jpg?2f574142fde4a78aec5fe4b9dedd5eaf);
+		background-image: url(dist/img/open_main_title_bg_tablet.jpg?2f574142fde4a78aec5fe4b9dedd5eaf);
 		background-repeat: no-repeat;
 		background-position: right center;
 		background-size: cover;
@@ -38388,7 +38388,7 @@ i.info.Main_infoIcon_2k8X6 {
 @media (max-width: 768px) and (max-width: 500px) {
 	.open .Index_titleSection_KES47 .Index_mainTitleBg_GMNON {
 		height: 200px;
-		background-image: url(/dist/img/open_main_title_bg_mobile.jpg?261381e5ed8cc63450d31a084c0bf832);
+		background-image: url(dist/img/open_main_title_bg_mobile.jpg?261381e5ed8cc63450d31a084c0bf832);
 	}
 }
 
@@ -38653,15 +38653,15 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .open .Index_menu_1TJOd ul>li .Index_menuIcon_1_2cXZ1 {
-	background-image: url(/dist/img/open_menu_icon_1.svg?3204cfb8ece82cb4204cd0a8472d1d05);
+	background-image: url(dist/img/open_menu_icon_1.svg?3204cfb8ece82cb4204cd0a8472d1d05);
 }
 
 .open .Index_menu_1TJOd ul>li .Index_menuIcon_2_3OnAO {
-	background-image: url(/dist/img/open_menu_icon_2.svg?2b504233c66b5d52167546988cd943b4);
+	background-image: url(dist/img/open_menu_icon_2.svg?2b504233c66b5d52167546988cd943b4);
 }
 
 .open .Index_menu_1TJOd ul>li .Index_menuIcon_3_29_mr {
-	background-image: url(/dist/img/open_menu_icon_3.svg?0646e70d607d5a4aefbad6e377bcebd0);
+	background-image: url(dist/img/open_menu_icon_3.svg?0646e70d607d5a4aefbad6e377bcebd0);
 }
 
 .open .Index_menu_1TJOd ul>li .Index_menuTitle_21px- {
@@ -38842,15 +38842,15 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .open .Index_promoBlockWork_2UEg_ .slick-slider .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/open_works_icon_1.svg?5a5d89d9c28fbc3ba35b006ad7d2a2bd);
+	background-image: url(dist/img/open_works_icon_1.svg?5a5d89d9c28fbc3ba35b006ad7d2a2bd);
 }
 
 .open .Index_promoBlockWork_2UEg_ .slick-slider .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/open_works_icon_2.svg?47cdedcc2549605514d407dc40a3f9f4);
+	background-image: url(dist/img/open_works_icon_2.svg?47cdedcc2549605514d407dc40a3f9f4);
 }
 
 .open .Index_promoBlockWork_2UEg_ .slick-slider .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/open_works_icon_3.svg?5a231c9774fff6c3d1677cde86822a8a);
+	background-image: url(dist/img/open_works_icon_3.svg?5a231c9774fff6c3d1677cde86822a8a);
 }
 
 .open .Index_promoBlockWork_2UEg_ .slick-slider .Index_featuresTitleWorks_qOu4w {
@@ -39065,27 +39065,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .express .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/express_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
+	background-image: url(dist/img/express_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
 }
 
 .express .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/express_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/express_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .express .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/express_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/express_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .express .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/express_icon_adv_1.svg?623e33d3866519e8e6aa307881b6d7dc);
+	background-image: url(dist/img/express_icon_adv_1.svg?623e33d3866519e8e6aa307881b6d7dc);
 }
 
 .express .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/express_icon_adv_2.svg?99713484c230836ae1f6b1d5614259e2);
+	background-image: url(dist/img/express_icon_adv_2.svg?99713484c230836ae1f6b1d5614259e2);
 }
 
 .express .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/express_icon_adv_3.svg?3dac903a39381fb72c0eb99150fce87e);
+	background-image: url(dist/img/express_icon_adv_3.svg?3dac903a39381fb72c0eb99150fce87e);
 }
 
 .express .Index_promoIconBigSize_1vSp0 img {
@@ -39110,7 +39110,7 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .uralsib .Index_header_b7fZ1 {
-	background-image: url(/dist/img/uralsib_bg_light.png?520ff60d21c4ea3f900cee6a9e0e1d79);
+	background-image: url(dist/img/uralsib_bg_light.png?520ff60d21c4ea3f900cee6a9e0e1d79);
 	background-repeat: no-repeat;
 	background-position: 30% 0;
 	background-size: cover;
@@ -39468,19 +39468,19 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .uralsib .Index_promoBlock_1fu5I .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/uralsib_icon_adv_1.svg?67bee0e3c1bbe44d0c3e517d24b25873);
+	background-image: url(dist/img/uralsib_icon_adv_1.svg?67bee0e3c1bbe44d0c3e517d24b25873);
 }
 
 .uralsib .Index_promoBlock_1fu5I .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/uralsib_icon_adv_2.svg?8e9b431afde7bea9aab5b8516429398b);
+	background-image: url(dist/img/uralsib_icon_adv_2.svg?8e9b431afde7bea9aab5b8516429398b);
 }
 
 .uralsib .Index_promoBlock_1fu5I .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/uralsib_icon_adv_3.svg?5f47b5bf691accfe60c0fa5d2e26d037);
+	background-image: url(dist/img/uralsib_icon_adv_3.svg?5f47b5bf691accfe60c0fa5d2e26d037);
 }
 
 .uralsib .Index_promoIconAdv_4_2UZS_ {
-	background-image: url(/dist/img/uralsib_icon_adv_5.svg?14b97040508e844b30eaaa41c85711e9);
+	background-image: url(dist/img/uralsib_icon_adv_5.svg?14b97040508e844b30eaaa41c85711e9);
 }
 
 .uralsib #advantages.Index_promoBlock_1fu5I {
@@ -39568,27 +39568,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .domrf .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/express_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
+	background-image: url(dist/img/express_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
 }
 
 .domrf .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/express_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/express_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .domrf .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/express_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/express_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .domrf .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/domrf_icon_adv_1.svg?5fa6b6d9b8281e3a3aacd2b1a1864096);
+	background-image: url(dist/img/domrf_icon_adv_1.svg?5fa6b6d9b8281e3a3aacd2b1a1864096);
 }
 
 .domrf .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/domrf_icon_adv_2.svg?a9f987d8cf008cea60bfb673d3956591);
+	background-image: url(dist/img/domrf_icon_adv_2.svg?a9f987d8cf008cea60bfb673d3956591);
 }
 
 .domrf .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/domrf_icon_adv_3.svg?9b6e1ebcd5e4b12a6ab94ee799abe828);
+	background-image: url(dist/img/domrf_icon_adv_3.svg?9b6e1ebcd5e4b12a6ab94ee799abe828);
 }
 
 .domrf .Index_features_1wkru {
@@ -39675,7 +39675,7 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .rshb .Index_bgBottomForm_2fQuq {
-	background-image: url(/dist/img/rshb_bg_2.jpg?a21b216208734805b026495021534635);
+	background-image: url(dist/img/rshb_bg_2.jpg?a21b216208734805b026495021534635);
 	background-repeat: no-repeat;
 	background-position: 50% 60%;
 	background-size: cover;
@@ -39787,27 +39787,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .rshb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/rshb_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
+	background-image: url(dist/img/rshb_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
 }
 
 .rshb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/rshb_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/rshb_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .rshb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/rshb_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/rshb_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .rshb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/rshb_icon_adv_1.svg?1dcd4cc0dd9847a4a86d2f64bfd0df81);
+	background-image: url(dist/img/rshb_icon_adv_1.svg?1dcd4cc0dd9847a4a86d2f64bfd0df81);
 }
 
 .rshb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/rshb_icon_adv_2.svg?f36947c875a3e221bc925b8f7daf1144);
+	background-image: url(dist/img/rshb_icon_adv_2.svg?f36947c875a3e221bc925b8f7daf1144);
 }
 
 .rshb .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/rshb_icon_adv_3.svg?ed67eb9c3a3f851e05b9090bb74bf0cc);
+	background-image: url(dist/img/rshb_icon_adv_3.svg?ed67eb9c3a3f851e05b9090bb74bf0cc);
 }
 
 .rshb .Index_promoButton_y3kdK,.rshb .Index_promoButton_y3kdK:hover,.rshb .Index_promoButton_y3kdK:active,.rshb .Index_promoButton_y3kdK:focus {
@@ -39818,7 +39818,7 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .bgf .Index_header_b7fZ1 {
-	background-image: url(/dist/img/bgf_bg.jpg?4cb360a61528c33e4c6273b6c88b637f);
+	background-image: url(dist/img/bgf_bg.jpg?4cb360a61528c33e4c6273b6c88b637f);
 	background-repeat: no-repeat;
 	background-position: 0 47%;
 	background-size: cover;
@@ -40099,32 +40099,32 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .bgf .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/bgf_icon_work_1.svg?c0f7410e1407ca93afb4415aae61accb);
+	background-image: url(dist/img/bgf_icon_work_1.svg?c0f7410e1407ca93afb4415aae61accb);
 }
 
 .bgf .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/bgf_icon_work_2.svg?83a43c423988406b37da24bc108d5914);
+	background-image: url(dist/img/bgf_icon_work_2.svg?83a43c423988406b37da24bc108d5914);
 }
 
 .bgf .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/bgf_icon_work_3.svg?04f6a6b3e2cb29093e6e6b53d462aa69);
+	background-image: url(dist/img/bgf_icon_work_3.svg?04f6a6b3e2cb29093e6e6b53d462aa69);
 }
 
 .bgf .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/bgf_icon_adv_1.svg?41ec3c3aff41ccfd9daec44aad9ffdb4);
+	background-image: url(dist/img/bgf_icon_adv_1.svg?41ec3c3aff41ccfd9daec44aad9ffdb4);
 }
 
 .bgf .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/bgf_icon_adv_2.svg?f6e0df9139191b0dafe7f0c5c3b07212);
+	background-image: url(dist/img/bgf_icon_adv_2.svg?f6e0df9139191b0dafe7f0c5c3b07212);
 }
 
 .bgf .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/bgf_icon_adv_3.svg?9c366ccd66bb1b6a07c1f607fb683b3c);
+	background-image: url(dist/img/bgf_icon_adv_3.svg?9c366ccd66bb1b6a07c1f607fb683b3c);
 }
 
 .partner .Index_header_b7fZ1 {
 	width: 100%;
-	background-image: url(/dist/img/partner_bg_tiny.jpg?94555ae3e20cf97282c27e1da7b7c0db);
+	background-image: url(dist/img/partner_bg_tiny.jpg?94555ae3e20cf97282c27e1da7b7c0db);
 	background-position: center center;
 	background-size: cover;
 }
@@ -40331,22 +40331,22 @@ i.info.Main_infoIcon_2k8X6 {
 	width: 25px;
 	height: 83px;
 	left: 0;
-	background-image: url(/dist/img/partner_arrow_prev.png?b05a024f8112b29210fa58ee2ddae563);
+	background-image: url(dist/img/partner_arrow_prev.png?b05a024f8112b29210fa58ee2ddae563);
 }
 
 .partner .Index_sliderInner_7cSsz .slick-next {
 	width: 25px;
 	height: 83px;
 	right: 0;
-	background-image: url(/dist/img/partner_arrow_next.png?d6f7e2284b168a5422b1c2c72c8d8e42);
+	background-image: url(dist/img/partner_arrow_next.png?d6f7e2284b168a5422b1c2c72c8d8e42);
 }
 
 .partner .Index_sliderInnerCompanies_2iIGL .slick-prev {
-	background-image: url(/dist/img/dark_arrow_prev.png?b603af3ee96ba5e411e60fd5267c8143);
+	background-image: url(dist/img/dark_arrow_prev.png?b603af3ee96ba5e411e60fd5267c8143);
 }
 
 .partner .Index_sliderInnerCompanies_2iIGL .slick-next {
-	background-image: url(/dist/img/dark_arrow_next.png?46f0c04aebb69764e0d1ca419e8a9149);
+	background-image: url(dist/img/dark_arrow_next.png?46f0c04aebb69764e0d1ca419e8a9149);
 }
 
 .partner .Index_sliderCompanies_pFT14 {
@@ -40427,80 +40427,80 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .partner .Index_bankIcon_1_3JY79 {
-	background-image: url(/dist/img/slider_banks_logo_1.png?936f6369bf02d82189db37d0322f614f);
+	background-image: url(dist/img/slider_banks_logo_1.png?936f6369bf02d82189db37d0322f614f);
 }
 
 .partner .Index_bankIcon_2_2Wzy0 {
-	background-image: url(/dist/img/slider_banks_logo_2.png?d9b956dde43ea3fd846ba4c56ef77326);
+	background-image: url(dist/img/slider_banks_logo_2.png?d9b956dde43ea3fd846ba4c56ef77326);
 }
 
 .partner .Index_bankIcon_3_39xUE {
-	background-image: url(/dist/img/slider_banks_logo_3.png?097a36b7cd591a5fe03e92fb4b704710);
+	background-image: url(dist/img/slider_banks_logo_3.png?097a36b7cd591a5fe03e92fb4b704710);
 }
 
 .partner .Index_bankIcon_4_3-Zas {
-	background-image: url(/dist/img/slider_banks_logo_4.png?569d21895cdd5e3d5b2c1511761b8071);
+	background-image: url(dist/img/slider_banks_logo_4.png?569d21895cdd5e3d5b2c1511761b8071);
 }
 
 .partner .Index_bankIcon_5_1z8hG {
-	background-image: url(/dist/img/slider_banks_logo_5.png?7b315f787f09cda902980bcaa4514b6a);
+	background-image: url(dist/img/slider_banks_logo_5.png?7b315f787f09cda902980bcaa4514b6a);
 }
 
 .partner .Index_bankIcon_6_1fwnq {
-	background-image: url(/dist/img/slider_banks_logo_6.png?cd38a2b3ec0bc58055fa1b2bea6a1005);
+	background-image: url(dist/img/slider_banks_logo_6.png?cd38a2b3ec0bc58055fa1b2bea6a1005);
 }
 
 .partner .Index_bankIcon_7_3Emjt {
-	background-image: url(/dist/img/slider_banks_logo_7.png?5bd89cccdb800665e02768c2b76a562f);
+	background-image: url(dist/img/slider_banks_logo_7.png?5bd89cccdb800665e02768c2b76a562f);
 }
 
 .partner .Index_companyIcon_1_20OXD {
-	background-image: url(/dist/img/companies_logo_1.jpg?019f0b778f4976a4fdd828f40e31f561);
+	background-image: url(dist/img/companies_logo_1.jpg?019f0b778f4976a4fdd828f40e31f561);
 }
 
 .partner .Index_companyIcon_2_uhyzL {
-	background-image: url(/dist/img/companies_logo_2.png?42a67d191a4ec675493430c69fe367e4);
+	background-image: url(dist/img/companies_logo_2.png?42a67d191a4ec675493430c69fe367e4);
 }
 
 .partner .Index_companyIcon_3_3vUDD {
-	background-image: url(/dist/img/companies_logo_3.jpg?79065bec9defd71bb954aa8c9208c13b);
+	background-image: url(dist/img/companies_logo_3.jpg?79065bec9defd71bb954aa8c9208c13b);
 }
 
 .partner .Index_companyIcon_4_3Ia5t {
-	background-image: url(/dist/img/companies_logo_4.jpg?bfc064c6bcdafb7df91ead368bd024ab);
+	background-image: url(dist/img/companies_logo_4.jpg?bfc064c6bcdafb7df91ead368bd024ab);
 }
 
 .partner .Index_companyIcon_5_3r3cC {
-	background-image: url(/dist/img/companies_logo_5.png?8f608b88fc93c59b73fed498a2fa41a4);
+	background-image: url(dist/img/companies_logo_5.png?8f608b88fc93c59b73fed498a2fa41a4);
 }
 
 .partner .Index_companyIcon_6_3Ba4V {
-	background-image: url(/dist/img/companies_logo_6.jpg?00d1ff4e07a7918b7c3b67025c50a6bb);
+	background-image: url(dist/img/companies_logo_6.jpg?00d1ff4e07a7918b7c3b67025c50a6bb);
 }
 
 .partner .Index_companyIcon_7_2kDad {
-	background-image: url(/dist/img/companies_logo_7.png?8d5926bff770ab037ea553b4a3517688);
+	background-image: url(dist/img/companies_logo_7.png?8d5926bff770ab037ea553b4a3517688);
 }
 
 .partner .Index_companyIcon_8_1ti3p {
-	background-image: url(/dist/img/companies_logo_8.jpg?da7169ab698641b9d0d11474bac279d4);
+	background-image: url(dist/img/companies_logo_8.jpg?da7169ab698641b9d0d11474bac279d4);
 }
 
 .partner .Index_companyIcon_9_1P8Pm {
-	background-image: url(/dist/img/companies_logo_9.jpg?af4f493d122409ab10a77ceaa0afa0f7);
+	background-image: url(dist/img/companies_logo_9.jpg?af4f493d122409ab10a77ceaa0afa0f7);
 }
 
 .partner .Index_companyIcon_10_2hdhZ {
-	background-image: url(/dist/img/companies_logo_10.jpg?fbfa24d423a4e45d11906a6819a9e40b);
+	background-image: url(dist/img/companies_logo_10.jpg?fbfa24d423a4e45d11906a6819a9e40b);
 }
 
 .partner .Index_companyIcon_11_1LdPg {
-	background-image: url(/dist/img/companies_logo_11.svg?5dfc09a01baf0a4e26cfe892468c2970);
+	background-image: url(dist/img/companies_logo_11.svg?5dfc09a01baf0a4e26cfe892468c2970);
 	background-size: 200px auto;
 }
 
 .partner .Index_companyIcon_12_1V75x {
-	background-image: url(/dist/img/companies_logo_12.jpg?d616b8c1724aafc2a7e7e6ffddbdb646);
+	background-image: url(dist/img/companies_logo_12.jpg?d616b8c1724aafc2a7e7e6ffddbdb646);
 }
 
 .partner .Index_promoBlock_1fu5I {
@@ -40623,35 +40623,35 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(1) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_1.png?8459aa6459974ab8d7d1dd16a06a0924);
+	background-image: url(dist/img/partner_promo_logo_1.png?8459aa6459974ab8d7d1dd16a06a0924);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(2) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_2.png?3481aad0d210634c03a12d03dda90ebd);
+	background-image: url(dist/img/partner_promo_logo_2.png?3481aad0d210634c03a12d03dda90ebd);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(3) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_3.png?b9f1e56f2d3d67a4ad05a9149754e521);
+	background-image: url(dist/img/partner_promo_logo_3.png?b9f1e56f2d3d67a4ad05a9149754e521);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(4) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_4.png?082469413452ce00980a11c012a4cc66);
+	background-image: url(dist/img/partner_promo_logo_4.png?082469413452ce00980a11c012a4cc66);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(5) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_5.png?52526d7139bb84dc7a9c6242ce6ba1ef);
+	background-image: url(dist/img/partner_promo_logo_5.png?52526d7139bb84dc7a9c6242ce6ba1ef);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(6) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_6.png?59cdd09b8d457ac51006cfb82048abb7);
+	background-image: url(dist/img/partner_promo_logo_6.png?59cdd09b8d457ac51006cfb82048abb7);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(7) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_7.png?644a9984f54411e0017819b33a8f110e);
+	background-image: url(dist/img/partner_promo_logo_7.png?644a9984f54411e0017819b33a8f110e);
 }
 
 .partner .Index_promoItem_3JKQU:nth-child(8) .Index_promoIcon_1XU9x {
-	background-image: url(/dist/img/partner_promo_logo_8.png?649eecfc302d8df4c4df5b3b6d0f008d);
+	background-image: url(dist/img/partner_promo_logo_8.png?649eecfc302d8df4c4df5b3b6d0f008d);
 }
 
 .partner .Index_howBlock_2IrwE {
@@ -40667,7 +40667,7 @@ i.info.Main_infoIcon_2k8X6 {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ededf1;
-	background-image: url(/dist/img/how_bg.png?73fb11bd5ed8245e4a9e980017960727);
+	background-image: url(dist/img/how_bg.png?73fb11bd5ed8245e4a9e980017960727);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -40738,7 +40738,7 @@ i.info.Main_infoIcon_2k8X6 {
 	width: 26px;
 	height: 26px;
 	content: "";
-	background-image: url(/dist/img/partner_close_icon.png?47e5f40e03fd5f93d18d5b418e87291f) !important;
+	background-image: url(dist/img/partner_close_icon.png?47e5f40e03fd5f93d18d5b418e87291f) !important;
 	color: #000;
 }
 
@@ -40837,7 +40837,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .sovcom .Index_header_b7fZ1 {
 	width: 100%;
-	background-image: url(/dist/img/bg.jpg?9979cc8bca7cf63e81d237d329653e85);
+	background-image: url(dist/img/bg.jpg?9979cc8bca7cf63e81d237d329653e85);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
@@ -41067,15 +41067,15 @@ i.info.Main_infoIcon_2k8X6 {
 .sovcom .Index_promoIconAdv_1_2lsgv {
 	width: 60px;
 	height: 60px;
-	background-image: url(/dist/img/icon_adv_1.svg?700a46307422f59fc5065e6f8454fed1);
+	background-image: url(dist/img/icon_adv_1.svg?700a46307422f59fc5065e6f8454fed1);
 }
 
 .sovcom .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/icon_adv_2.svg?710ef0addb32eb83193f5526fed9dec7);
+	background-image: url(dist/img/icon_adv_2.svg?710ef0addb32eb83193f5526fed9dec7);
 }
 
 .sovcom .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/icon_adv_3.svg?98c5fd7b9e5e49188a56f78edf1c830c);
+	background-image: url(dist/img/icon_adv_3.svg?98c5fd7b9e5e49188a56f78edf1c830c);
 }
 
 .sovcom .Index_features_1wkru {
@@ -41232,27 +41232,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .metib .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/metib_icon_work_1.svg?4117c562646512ce6482d543f1787606);
+	background-image: url(dist/img/metib_icon_work_1.svg?4117c562646512ce6482d543f1787606);
 }
 
 .metib .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/metib_icon_work_2.svg?5a823d9eb36dc255e8023522b79a63b0);
+	background-image: url(dist/img/metib_icon_work_2.svg?5a823d9eb36dc255e8023522b79a63b0);
 }
 
 .metib .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/metib_icon_work_3.svg?630e54962722c6a0ef2d95d4bd042858);
+	background-image: url(dist/img/metib_icon_work_3.svg?630e54962722c6a0ef2d95d4bd042858);
 }
 
 .metib .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/metib_icon_adv_1.svg?78960d1c826af9b8196f1d13ea984226);
+	background-image: url(dist/img/metib_icon_adv_1.svg?78960d1c826af9b8196f1d13ea984226);
 }
 
 .metib .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/metib_icon_adv_2.svg?196ca41690e6d59b270ab606ca8211bd);
+	background-image: url(dist/img/metib_icon_adv_2.svg?196ca41690e6d59b270ab606ca8211bd);
 }
 
 .metib .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/metib_icon_adv_3.svg?abb0eab7f66db8dbb220fd4a110c4541);
+	background-image: url(dist/img/metib_icon_adv_3.svg?abb0eab7f66db8dbb220fd4a110c4541);
 }
 
 .bspb .Index_dashboardTitle_rM-jJ {
@@ -41491,35 +41491,35 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .bspb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/bspb_icon_work_1.svg?091613a3324396bc1164608ae1b0d8ac);
+	background-image: url(dist/img/bspb_icon_work_1.svg?091613a3324396bc1164608ae1b0d8ac);
 }
 
 .bspb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/bspb_icon_work_2.svg?e26c951a947403ab66ea03652cde6d95);
+	background-image: url(dist/img/bspb_icon_work_2.svg?e26c951a947403ab66ea03652cde6d95);
 }
 
 .bspb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/bspb_icon_work_3.svg?447fab38d9568edf9d690655728cc408);
+	background-image: url(dist/img/bspb_icon_work_3.svg?447fab38d9568edf9d690655728cc408);
 }
 
 .bspb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/bspb_icon_adv_1.svg?dd48bcc5b5ba07cc45117a88bcf6af5b);
+	background-image: url(dist/img/bspb_icon_adv_1.svg?dd48bcc5b5ba07cc45117a88bcf6af5b);
 }
 
 .bspb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/bspb_icon_adv_2.svg?3c57f423af67037d129fe5561239218b);
+	background-image: url(dist/img/bspb_icon_adv_2.svg?3c57f423af67037d129fe5561239218b);
 }
 
 .bspb .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/bspb_icon_adv_3.svg?ccaa04f3abac14664eef4a8ad916e200);
+	background-image: url(dist/img/bspb_icon_adv_3.svg?ccaa04f3abac14664eef4a8ad916e200);
 }
 
 .bspb .Index_promoIconAdv_4_2UZS_ {
-	background-image: url(/dist/img/bspb_icon_adv_4.svg?c0e1e4e925456a961b526da27968172e);
+	background-image: url(dist/img/bspb_icon_adv_4.svg?c0e1e4e925456a961b526da27968172e);
 }
 
 .abr .Index_pageBlock_7TeZc {
-	background-image: url(/dist/img/abr_bg_2.jpg?438bf9781401ff108ef62a09b970f424);
+	background-image: url(dist/img/abr_bg_2.jpg?438bf9781401ff108ef62a09b970f424);
 	background-position: 0 25%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -41989,27 +41989,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .abr .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/abr_icon_work_1.svg?44e68348a4a3e6c83d11741ed9e52743);
+	background-image: url(dist/img/abr_icon_work_1.svg?44e68348a4a3e6c83d11741ed9e52743);
 }
 
 .abr .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/abr_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/abr_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .abr .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/abr_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/abr_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .abr .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/abr_icon_adv_1.svg?08fdbbc64266cceefec1af0537b8237d);
+	background-image: url(dist/img/abr_icon_adv_1.svg?08fdbbc64266cceefec1af0537b8237d);
 }
 
 .abr .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/abr_icon_adv_2.svg?cd6c9240f96e905ba4d779047911b7ea);
+	background-image: url(dist/img/abr_icon_adv_2.svg?cd6c9240f96e905ba4d779047911b7ea);
 }
 
 .abr .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/abr_icon_adv_3.svg?ffb86d273c3d5d5f23b1c39fdb3804f5);
+	background-image: url(dist/img/abr_icon_adv_3.svg?ffb86d273c3d5d5f23b1c39fdb3804f5);
 }
 
 .abr .insurancePromo {
@@ -42018,7 +42018,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .abr .insurancePromo .Index_promoIconAdv_3_31dVN {
 	background-size: contain;
-	background-image: url(/dist/img/abr_home_sofa.svg?223663e2f365b191d469eec6e6d0e175);
+	background-image: url(dist/img/abr_home_sofa.svg?223663e2f365b191d469eec6e6d0e175);
 }
 
 .abr .Index_promoIconBigSize_1vSp0 img {
@@ -42171,27 +42171,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .uc .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/uc_icon_work_1.svg?4117c562646512ce6482d543f1787606);
+	background-image: url(dist/img/uc_icon_work_1.svg?4117c562646512ce6482d543f1787606);
 }
 
 .uc .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/uc_icon_work_2.svg?5a823d9eb36dc255e8023522b79a63b0);
+	background-image: url(dist/img/uc_icon_work_2.svg?5a823d9eb36dc255e8023522b79a63b0);
 }
 
 .uc .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/uc_icon_work_3.svg?630e54962722c6a0ef2d95d4bd042858);
+	background-image: url(dist/img/uc_icon_work_3.svg?630e54962722c6a0ef2d95d4bd042858);
 }
 
 .uc .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/uc_icon_adv_1.svg?8a5001bd0690637f88bb193a2a52a255);
+	background-image: url(dist/img/uc_icon_adv_1.svg?8a5001bd0690637f88bb193a2a52a255);
 }
 
 .uc .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/uc_icon_adv_2.svg?ab256121e16d04ae3e2bf167bdf2180b);
+	background-image: url(dist/img/uc_icon_adv_2.svg?ab256121e16d04ae3e2bf167bdf2180b);
 }
 
 .uc .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/uc_icon_adv_3.svg?2e638417767a0909a83ba9caab04b22e);
+	background-image: url(dist/img/uc_icon_adv_3.svg?2e638417767a0909a83ba9caab04b22e);
 }
 
 .alfa .Index_promoBlock_1fu5I {
@@ -42339,27 +42339,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .alfa .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/alfa_icon_work_1.svg?5ac4e8e1b77b450486fd8e3a9e42df8f);
+	background-image: url(dist/img/alfa_icon_work_1.svg?5ac4e8e1b77b450486fd8e3a9e42df8f);
 }
 
 .alfa .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/alfa_icon_work_2.svg?d73b5ba791a2c766275bee78b085e680);
+	background-image: url(dist/img/alfa_icon_work_2.svg?d73b5ba791a2c766275bee78b085e680);
 }
 
 .alfa .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/alfa_icon_work_3.svg?7eb453f85db8e89f2c9d8244cf04cf83);
+	background-image: url(dist/img/alfa_icon_work_3.svg?7eb453f85db8e89f2c9d8244cf04cf83);
 }
 
 .alfa .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/alfa_icon_adv_1.svg?4802fedbe6db3ca951fb4f59cbbbf9ab);
+	background-image: url(dist/img/alfa_icon_adv_1.svg?4802fedbe6db3ca951fb4f59cbbbf9ab);
 }
 
 .alfa .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/alfa_icon_adv_2.svg?506e10dd1066f19daf7db7a1cfb5ab79);
+	background-image: url(dist/img/alfa_icon_adv_2.svg?506e10dd1066f19daf7db7a1cfb5ab79);
 }
 
 .alfa .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/alfa_icon_adv_3.svg?07b500d1c983ed03a013bc4ebf0a745d);
+	background-image: url(dist/img/alfa_icon_adv_3.svg?07b500d1c983ed03a013bc4ebf0a745d);
 }
 
 .alfa .Index_promoIconBigSize_1vSp0 img {
@@ -42368,7 +42368,7 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .absolut .Index_pageBlock_7TeZc {
-	background-image: linear-gradient(to right, rgba(250,245,241,0.6) 0%, rgba(250,245,241,0) 100%),url(/dist/img/absolut_bg.jpg?5fe66980194de23d26401513fa81eece);
+	background-image: linear-gradient(to right, rgba(250,245,241,0.6) 0%, rgba(250,245,241,0) 100%),url(dist/img/absolut_bg.jpg?5fe66980194de23d26401513fa81eece);
 	background-size: cover;
 	background-position: 0 50%;
 	background-repeat: no-repeat;
@@ -42377,7 +42377,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 @media (max-width: 950px) {
 	.absolut .Index_pageBlock_7TeZc {
-		background-image: linear-gradient(to bottom, rgba(250,245,241,0.6) 50%, rgba(250,245,241,0) 100%),url(/dist/img/absolut_bg.jpg?5fe66980194de23d26401513fa81eece);
+		background-image: linear-gradient(to bottom, rgba(250,245,241,0.6) 50%, rgba(250,245,241,0) 100%),url(dist/img/absolut_bg.jpg?5fe66980194de23d26401513fa81eece);
 	}
 }
 
@@ -42767,31 +42767,31 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .absolut .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/absolut_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
+	background-image: url(dist/img/absolut_icon_work_1.svg?bfed59a4d30cd6dbff4e7893d9c7215e);
 }
 
 .absolut .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/absolut_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/absolut_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .absolut .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/absolut_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/absolut_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .absolut .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/absolut_icon_adv_1.svg?e8cf25dc6dbad5e6fe0dee927fe93b36);
+	background-image: url(dist/img/absolut_icon_adv_1.svg?e8cf25dc6dbad5e6fe0dee927fe93b36);
 }
 
 .absolut .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/absolut_icon_adv_2.svg?25464f949d5c026ad16d882f44c3bc64);
+	background-image: url(dist/img/absolut_icon_adv_2.svg?25464f949d5c026ad16d882f44c3bc64);
 }
 
 .absolut .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/absolut_icon_adv_3.svg?a2b7dea863c03686e740a6d92a9f5b4a);
+	background-image: url(dist/img/absolut_icon_adv_3.svg?a2b7dea863c03686e740a6d92a9f5b4a);
 }
 
 .absolut .Index_promoIconAdv_4_2UZS_ {
-	background-image: url(/dist/img/absolut_icon_adv_4.svg?e3f5cfc285a7b50022487abdb1af8b1d);
+	background-image: url(dist/img/absolut_icon_adv_4.svg?e3f5cfc285a7b50022487abdb1af8b1d);
 }
 
 .absolut .Index_footer_M6mtl {
@@ -43001,27 +43001,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .sviaz .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/sviaz_icon_work_1.svg?44e68348a4a3e6c83d11741ed9e52743);
+	background-image: url(dist/img/sviaz_icon_work_1.svg?44e68348a4a3e6c83d11741ed9e52743);
 }
 
 .sviaz .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/sviaz_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
+	background-image: url(dist/img/sviaz_icon_work_2.svg?ce963c8e1487cd4d3f061f803b2105b0);
 }
 
 .sviaz .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/sviaz_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
+	background-image: url(dist/img/sviaz_icon_work_3.svg?c87befd9f8b33df9deb109d0a92a2785);
 }
 
 .sviaz .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/sviaz_icon_adv_1.svg?1f520431c3c238c7d2d0186512277d27);
+	background-image: url(dist/img/sviaz_icon_adv_1.svg?1f520431c3c238c7d2d0186512277d27);
 }
 
 .sviaz .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/sviaz_icon_adv_2.svg?4fef41000d1f249258a75693d513b99a);
+	background-image: url(dist/img/sviaz_icon_adv_2.svg?4fef41000d1f249258a75693d513b99a);
 }
 
 .sviaz .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/sviaz_icon_adv_3.svg?7c3ddbef6f43dfa6aeb6cb31bd8263de);
+	background-image: url(dist/img/sviaz_icon_adv_3.svg?7c3ddbef6f43dfa6aeb6cb31bd8263de);
 }
 
 .sviaz .Index_promoIconBigSize_1vSp0 img {
@@ -43031,7 +43031,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .abb .Index_pageBlock_7TeZc {
 	background-color: #e9e4e3;
-	background-image: url(/dist/img/abb_bg.png?2b893e9f3f126b99d63e55f246ffa5eb);
+	background-image: url(dist/img/abb_bg.png?2b893e9f3f126b99d63e55f246ffa5eb);
 	background-position: center 70%;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -43213,27 +43213,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .abb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/abb_tap.svg?b19aa8304afbbf15b167b55a58dac7d8);
+	background-image: url(dist/img/abb_tap.svg?b19aa8304afbbf15b167b55a58dac7d8);
 }
 
 .abb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/abb_loupe.svg?5fe5ee61c23b525f110ec89c3423f6fa);
+	background-image: url(dist/img/abb_loupe.svg?5fe5ee61c23b525f110ec89c3423f6fa);
 }
 
 .abb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/abb_verified.svg?8f412032d6ef07d6055f99333b84c802);
+	background-image: url(dist/img/abb_verified.svg?8f412032d6ef07d6055f99333b84c802);
 }
 
 .abb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/abb_shield.svg?8380dc67734add8b22aa8a9099d469a3);
+	background-image: url(dist/img/abb_shield.svg?8380dc67734add8b22aa8a9099d469a3);
 }
 
 .abb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/abb_stopwatch.svg?738eb1848001ddd7b1ce4d8d650d2de4);
+	background-image: url(dist/img/abb_stopwatch.svg?738eb1848001ddd7b1ce4d8d650d2de4);
 }
 
 .abb .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/abb_pin.svg?1022ed27a781d80586487e12eb04641f);
+	background-image: url(dist/img/abb_pin.svg?1022ed27a781d80586487e12eb04641f);
 }
 
 .gpb .Index_dashboardMenu_3vRvN {
@@ -43429,34 +43429,34 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .gpb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/GPB_Internet_Notebook.svg?85b06a8b6218b1e86ab15ef5e33c5636);
+	background-image: url(dist/img/GPB_Internet_Notebook.svg?85b06a8b6218b1e86ab15ef5e33c5636);
 }
 
 .gpb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/GPB_Sport_Binoculars.svg?d9d38b119299520e83b68f2e2a00a0dd);
+	background-image: url(dist/img/GPB_Sport_Binoculars.svg?d9d38b119299520e83b68f2e2a00a0dd);
 }
 
 .gpb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/GPB_Documents_Stamp_Approved.svg?93db912c2d481d75d614c4801d916354);
+	background-image: url(dist/img/GPB_Documents_Stamp_Approved.svg?93db912c2d481d75d614c4801d916354);
 }
 
 .gpb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/GPB_Documents_Stamp.svg?3c1af58cd3ee6bd75e5ea0c18ddb7773);
+	background-image: url(dist/img/GPB_Documents_Stamp.svg?3c1af58cd3ee6bd75e5ea0c18ddb7773);
 }
 
 .gpb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/GPB_Sport_Stopwatch.svg?f55fbb0a8ad896b872d14c598f1960c7);
+	background-image: url(dist/img/GPB_Sport_Stopwatch.svg?f55fbb0a8ad896b872d14c598f1960c7);
 }
 
 .gpb .Index_promoIconAdv_3_31dVN {
 	background-size: 60%;
-	background-image: url(/dist/img/pin.svg?d3aba6c5030f8f06751abe817e4d29c3);
+	background-image: url(dist/img/pin.svg?d3aba6c5030f8f06751abe817e4d29c3);
 }
 
 .gpb .Index_promoIconAdv_4_2UZS_ {
 	background-size: 57%;
 	background-position-x: 63%;
-	background-image: url(/dist/img/gpb_phone_camera.svg?b0c105f40d7059e62dd9c962d52066d6);
+	background-image: url(dist/img/gpb_phone_camera.svg?b0c105f40d7059e62dd9c962d52066d6);
 }
 
 .gpb .insurancePromo {
@@ -43464,12 +43464,12 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .gpb .insurancePromo .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/GPB_Home_Sofa.svg?4e456e94805a0c630664b16fb1b66010);
+	background-image: url(dist/img/GPB_Home_Sofa.svg?4e456e94805a0c630664b16fb1b66010);
 }
 
 .minb .Index_pageBlock_7TeZc {
 	background-color: #b12026;
-	background-image: url(/dist/img/minb_bg_2.png?e4b652d04aa7e97f87fb43f63adadf43);
+	background-image: url(dist/img/minb_bg_2.png?e4b652d04aa7e97f87fb43f63adadf43);
 	background-size: 100vw auto;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -43878,35 +43878,35 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .minb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/minb_icon_work_1.svg?41729d63688e9bbe2d0a7d97d0c1906b);
+	background-image: url(dist/img/minb_icon_work_1.svg?41729d63688e9bbe2d0a7d97d0c1906b);
 }
 
 .minb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/minb_icon_work_2.svg?c7404349c2cf17cf5666c2d88b7f3782);
+	background-image: url(dist/img/minb_icon_work_2.svg?c7404349c2cf17cf5666c2d88b7f3782);
 }
 
 .minb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/minb_icon_work_3.svg?4d237f644017ac818b6d7d29e442cdc9);
+	background-image: url(dist/img/minb_icon_work_3.svg?4d237f644017ac818b6d7d29e442cdc9);
 }
 
 .minb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/minb_icon_adv_1.svg?b866ac81a9edecd73e4688f3c2f26062);
+	background-image: url(dist/img/minb_icon_adv_1.svg?b866ac81a9edecd73e4688f3c2f26062);
 }
 
 .minb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/minb_icon_adv_2.svg?573813ce2df71dda919d4ca9bf6ee77f);
+	background-image: url(dist/img/minb_icon_adv_2.svg?573813ce2df71dda919d4ca9bf6ee77f);
 	background-size: 65%;
 }
 
 .minb .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/minb_icon_adv_3.svg?69f46f8f0c773b59f013240a5a962cae);
+	background-image: url(dist/img/minb_icon_adv_3.svg?69f46f8f0c773b59f013240a5a962cae);
 }
 
 .minb .Index_promoIconAdv_4_2UZS_ {
 	background-size: 57%;
 	background-position-x: 63%;
 	background-position-y: 59%;
-	background-image: url(/dist/img/minb_icon_adv_4.svg?85092b99ff4846bf0f543714f7847d03);
+	background-image: url(dist/img/minb_icon_adv_4.svg?85092b99ff4846bf0f543714f7847d03);
 }
 
 .minb .Index_popupText_KEJkM {
@@ -43915,7 +43915,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .ubrr .Index_pageBlock_7TeZc {
 	background-color: #f0f0f0;
-	background-image: url(/dist/img/ubrr_bg_light.png?14f93efedc2db8a54afa987bb3dd802b);
+	background-image: url(dist/img/ubrr_bg_light.png?14f93efedc2db8a54afa987bb3dd802b);
 	background-position: center 70%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44102,35 +44102,35 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .ubrr .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/ubrr_icon_work_1.svg?0b83dece6e51024fc500eb533701394b);
+	background-image: url(dist/img/ubrr_icon_work_1.svg?0b83dece6e51024fc500eb533701394b);
 }
 
 .ubrr .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/ubrr_icon_work_2.svg?8f9442688fc1184f838564b6db35376a);
+	background-image: url(dist/img/ubrr_icon_work_2.svg?8f9442688fc1184f838564b6db35376a);
 }
 
 .ubrr .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/ubrr_icon_work_3.svg?4563f61628bd8cbb639a42db95c3e0f7);
+	background-image: url(dist/img/ubrr_icon_work_3.svg?4563f61628bd8cbb639a42db95c3e0f7);
 }
 
 .ubrr .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/ubrr_icon_adv_1.svg?564017b08a098705c0418110cf375a47);
+	background-image: url(dist/img/ubrr_icon_adv_1.svg?564017b08a098705c0418110cf375a47);
 }
 
 .ubrr .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/ubrr_icon_adv_2.svg?65fd6318254180af8745932587ac4c0a);
+	background-image: url(dist/img/ubrr_icon_adv_2.svg?65fd6318254180af8745932587ac4c0a);
 	background-size: 65%;
 }
 
 .ubrr .Index_promoBlockAdvantages_1vzpp .Index_promoIconAdv_3_31dVN {
 	background-size: 75%;
-	background-image: url(/dist/img/ubrr_icon_adv_3.svg?b83c951731ae15db750b9e3d74a063a9);
+	background-image: url(dist/img/ubrr_icon_adv_3.svg?b83c951731ae15db750b9e3d74a063a9);
 }
 
 .novikom .Index_header_b7fZ1 {
 	width: 100%;
 	background-color: #e0dcdc;
-	background-image: url(/dist/img/novikom_bg.jpg?a94c9a08ed80cf4fa4ab73ade6f1dc3c);
+	background-image: url(dist/img/novikom_bg.jpg?a94c9a08ed80cf4fa4ab73ade6f1dc3c);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44317,29 +44317,29 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .novikom .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/novikom_icon_work_1.svg?a9301cab03d36fdbaaa0d1534acaefdb);
+	background-image: url(dist/img/novikom_icon_work_1.svg?a9301cab03d36fdbaaa0d1534acaefdb);
 }
 
 .novikom .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/novikom_icon_work_2.svg?9b51c4383fa14e3185c97060eb63b9e2);
+	background-image: url(dist/img/novikom_icon_work_2.svg?9b51c4383fa14e3185c97060eb63b9e2);
 }
 
 .novikom .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/novikom_icon_work_3.svg?b769fc9bca9f8bc75625c5668409e070);
+	background-image: url(dist/img/novikom_icon_work_3.svg?b769fc9bca9f8bc75625c5668409e070);
 }
 
 .novikom .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/novikom_icon_adv_1.svg?6c4ff1377790353e7fdaa6c6860a87e4);
+	background-image: url(dist/img/novikom_icon_adv_1.svg?6c4ff1377790353e7fdaa6c6860a87e4);
 }
 
 .novikom .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/novikom_icon_adv_2.svg?ff757cd0f8dcfec982fb9cbfa6063962);
+	background-image: url(dist/img/novikom_icon_adv_2.svg?ff757cd0f8dcfec982fb9cbfa6063962);
 	background-size: 65%;
 }
 
 .novikom .Index_promoBlockAdvantages_1vzpp .Index_promoIconAdv_3_31dVN {
 	background-size: 75%;
-	background-image: url(/dist/img/novikom_icon_adv_3.svg?a5190420ee0ef4225b872243c1be5dc0);
+	background-image: url(dist/img/novikom_icon_adv_3.svg?a5190420ee0ef4225b872243c1be5dc0);
 }
 
 .sgb .Index_dashboardMenu_3vRvN {
@@ -44529,33 +44529,33 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .sgb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/sgb_icon_work_1.svg?8e336124742fec97f572d532e1535af9);
+	background-image: url(dist/img/sgb_icon_work_1.svg?8e336124742fec97f572d532e1535af9);
 }
 
 .sgb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/sgb_icon_work_2.svg?f87eec517c607b5186ed625f533ca286);
+	background-image: url(dist/img/sgb_icon_work_2.svg?f87eec517c607b5186ed625f533ca286);
 }
 
 .sgb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/sgb_icon_work_3.svg?549b80eef114c99e28669ceeb8e024dd);
+	background-image: url(dist/img/sgb_icon_work_3.svg?549b80eef114c99e28669ceeb8e024dd);
 }
 
 .sgb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/sgb_icon_adv_1.svg?4b1f8e3d9eedb061cf27c90884ae3563);
+	background-image: url(dist/img/sgb_icon_adv_1.svg?4b1f8e3d9eedb061cf27c90884ae3563);
 }
 
 .sgb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/sgb_icon_adv_2.svg?c4ce648af74943ac5fdd676366975865);
+	background-image: url(dist/img/sgb_icon_adv_2.svg?c4ce648af74943ac5fdd676366975865);
 }
 
 .sgb .Index_promoIconAdv_3_31dVN {
 	background-size: 60%;
-	background-image: url(/dist/img/sgb_icon_adv_3.svg?d38920a2d8edafa071a479a1dc0b03fc);
+	background-image: url(dist/img/sgb_icon_adv_3.svg?d38920a2d8edafa071a479a1dc0b03fc);
 }
 
 .sgb .Index_promoIconAdv_4_2UZS_ {
 	background-size: 60%;
-	background-image: url(/dist/img/sgb_icon_adv_4.svg?c380cd561591a8434c01e64efdbbc8bf);
+	background-image: url(dist/img/sgb_icon_adv_4.svg?c380cd561591a8434c01e64efdbbc8bf);
 }
 
 .modul .Index_menu_1TJOd {
@@ -44612,7 +44612,7 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .avers .Index_header_b7fZ1 {
-	background-image: url(/dist/img/avers_bg.jpg?3e9c4de94949a35e3f194fe9d6bbe1dc);
+	background-image: url(dist/img/avers_bg.jpg?3e9c4de94949a35e3f194fe9d6bbe1dc);
 	background-size: cover;
 	background-position: 50% 0;
 	background-repeat: no-repeat;
@@ -44621,7 +44621,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 @media (max-width: 950px) {
 	.avers .Index_header_b7fZ1 {
-		background-image: url(/dist/img/avers_bg.jpg?3e9c4de94949a35e3f194fe9d6bbe1dc);
+		background-image: url(dist/img/avers_bg.jpg?3e9c4de94949a35e3f194fe9d6bbe1dc);
 	}
 }
 
@@ -44848,27 +44848,27 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .avers .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/avers_icon_work_1.svg?d2ac30948236bcb8b0fde19f57dbc973);
+	background-image: url(dist/img/avers_icon_work_1.svg?d2ac30948236bcb8b0fde19f57dbc973);
 }
 
 .avers .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/avers_icon_work_2.svg?06ce77e42c1edf1cade77671edeec3bc);
+	background-image: url(dist/img/avers_icon_work_2.svg?06ce77e42c1edf1cade77671edeec3bc);
 }
 
 .avers .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/avers_icon_work_3.svg?463db3713848f595513003174ccaa8ad);
+	background-image: url(dist/img/avers_icon_work_3.svg?463db3713848f595513003174ccaa8ad);
 }
 
 .avers .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/avers_icon_adv_1.svg?39c8eb627aa61e881a59afd10de2d0ca);
+	background-image: url(dist/img/avers_icon_adv_1.svg?39c8eb627aa61e881a59afd10de2d0ca);
 }
 
 .avers .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/avers_icon_adv_2.svg?a657ac1e018c77beba2cbeed61ee466f);
+	background-image: url(dist/img/avers_icon_adv_2.svg?a657ac1e018c77beba2cbeed61ee466f);
 }
 
 .avers .Index_promoBlockAdvantages_1vzpp .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/avers_icon_adv_3.svg?c197d5842e6a8e9b28ee481a557e9ef1);
+	background-image: url(dist/img/avers_icon_adv_3.svg?c197d5842e6a8e9b28ee481a557e9ef1);
 }
 
 .mkb .Index_promoBlock_1fu5I {
@@ -44924,34 +44924,34 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .mkb .Index_promoIconWorks_1_GU1ZQ {
-	background-image: url(/dist/img/mkb_icon_work_1.svg?9741fa22101916b8d6a88291e336d899);
+	background-image: url(dist/img/mkb_icon_work_1.svg?9741fa22101916b8d6a88291e336d899);
 	margin-top: -9px;
 	margin-bottom: 34px;
 	height: 147px;
 }
 
 .mkb .Index_promoIconWorks_2_2-aNI {
-	background-image: url(/dist/img/mkb_icon_work_2.svg?0561f30eff30aa77ab8d8fe789b5afa5);
+	background-image: url(dist/img/mkb_icon_work_2.svg?0561f30eff30aa77ab8d8fe789b5afa5);
 }
 
 .mkb .Index_promoIconWorks_3_lBncD {
-	background-image: url(/dist/img/mkb_icon_work_3.svg?d8f5173fb9d328a6515a856028b78759);
+	background-image: url(dist/img/mkb_icon_work_3.svg?d8f5173fb9d328a6515a856028b78759);
 }
 
 .mkb .Index_promoIconAdv_1_2lsgv {
-	background-image: url(/dist/img/mkb_icon_adv_1.svg?7a172f8bc0b713ac13b885a9f43f5848);
+	background-image: url(dist/img/mkb_icon_adv_1.svg?7a172f8bc0b713ac13b885a9f43f5848);
 	background-size: 63%;
 	margin-bottom: 36px;
 }
 
 .mkb .Index_promoIconAdv_2_24d9O {
-	background-image: url(/dist/img/mkb_icon_adv_2.svg?cee5e6a1da48a72342685a08f78fbc75);
+	background-image: url(dist/img/mkb_icon_adv_2.svg?cee5e6a1da48a72342685a08f78fbc75);
 	margin-top: -5px;
 	background-size: 55%;
 }
 
 .mkb .Index_promoIconAdv_3_31dVN {
-	background-image: url(/dist/img/mkb_icon_adv_3.svg?3c19e9b7d4ef6d50122b9154269c379e);
+	background-image: url(dist/img/mkb_icon_adv_3.svg?3c19e9b7d4ef6d50122b9154269c379e);
 	margin-top: -20px;
 	height: 145px;
 	background-size: 61%;
@@ -47420,7 +47420,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
-	background-image: url(/dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
+	background-image: url(dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
 	background-repeat: no-repeat !important;
 	background-size: contain !important;
 	background-position: center center !important;
@@ -47643,7 +47643,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	border: none !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
+	background-image: url(dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
 	background-repeat: no-repeat;
 	background-position: 14px 18px;
 	background-size: 24px auto;
@@ -47879,7 +47879,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	height: 12px !important;
 	margin: 0;
 	padding: 0 !important;
-	background-image: url(/dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
+	background-image: url(dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center;
@@ -47912,7 +47912,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	border: none !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
+	background-image: url(dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
 	background-repeat: no-repeat;
 	background-position: 14px 18px;
 	background-size: 24px auto;
@@ -48361,7 +48361,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	content: "";
 	width: 42px !important;
 	height: 16px !important;
-	background-image: url(/dist/img/open_calendar_icon.svg?fe5ba9f95f0e27c4922c23ff5afa585c) !important;
+	background-image: url(dist/img/open_calendar_icon.svg?fe5ba9f95f0e27c4922c23ff5afa585c) !important;
 	background-repeat: no-repeat !important;
 	background-size: contain !important;
 	background-position: center center !important;
@@ -48437,7 +48437,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	width: 15px !important;
 	height: 10px !important;
 	padding: 0 !important;
-	background-image: url(/dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
+	background-image: url(dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -48531,7 +48531,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	border: none !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
+	background-image: url(dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
 	background-repeat: no-repeat;
 	background-position: 14px 18px;
 	background-size: 24px auto;
@@ -48730,7 +48730,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	border: none !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
+	background-image: url(dist/img/open_warning_message_icon.svg?02574879712547268f62ae0be4cbd0cb);
 	background-repeat: no-repeat;
 	background-position: 14px 18px;
 	background-size: 24px auto;
@@ -48753,7 +48753,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	height: 12px !important;
 	margin: 0;
 	padding: 0 !important;
-	background-image: url(/dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
+	background-image: url(dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center;
@@ -49960,7 +49960,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_leftColumn_S5rDZ .Order_draftButton_46C4- i::before {
-	background-image: url(/dist/img/domrf_trash_icon_black.svg?de3af8a41c3ec687e9ce8951171f9602) !important;
+	background-image: url(dist/img/domrf_trash_icon_black.svg?de3af8a41c3ec687e9ce8951171f9602) !important;
 }
 
 .domrf .Order_leftColumn_S5rDZ .Order_draftButton_46C4-:focus {
@@ -49981,7 +49981,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_rightColumn_kOLM2 .Order_draftButton_46C4- i::before {
-	background-image: url(/dist/img/domrf_doc_icon.svg?3f83eaaf3f9db90b4f403b3ac8e85654) !important;
+	background-image: url(dist/img/domrf_doc_icon.svg?3f83eaaf3f9db90b4f403b3ac8e85654) !important;
 }
 
 .domrf .Order_rightColumn_kOLM2 .Order_draftButton_46C4-:focus {
@@ -50002,7 +50002,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_cancelButton_3ef7s i::before {
-	background-image: url(/dist/img/domrf_cross_icon.svg?2138b38b47d8eb44c5f3aa8d99c24b24) !important;
+	background-image: url(dist/img/domrf_cross_icon.svg?2138b38b47d8eb44c5f3aa8d99c24b24) !important;
 }
 
 .domrf .Order_cancelButton_3ef7s:focus {
@@ -50023,7 +50023,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_nextButton_Vn89X i::before {
-	background-image: url(/dist/img/domrf_next_icon.svg?f60b64adf84051ba9375a4d493666b06) !important;
+	background-image: url(dist/img/domrf_next_icon.svg?f60b64adf84051ba9375a4d493666b06) !important;
 }
 
 .domrf .Order_nextButton_Vn89X:focus {
@@ -50044,7 +50044,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_footerColumn_1mb4s .ui.button.Order_backButton_3IQfw i::before {
-	background-image: url(/dist/img/domrf_back_icon.svg?8bb858f3c3dbf060efd83764ade3b951) !important;
+	background-image: url(dist/img/domrf_back_icon.svg?8bb858f3c3dbf060efd83764ade3b951) !important;
 }
 
 .domrf .Order_footerColumn_1mb4s .ui.button.Order_backButton_3IQfw:focus {
@@ -50254,7 +50254,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	content: '';
 	height: 16px;
 	width: 16px;
-	background-image: url(/dist/img/domrf_data_picker_icon.svg?d188433503130475667a736683d1afa7) !important;
+	background-image: url(dist/img/domrf_data_picker_icon.svg?d188433503130475667a736683d1afa7) !important;
 	background-repeat: no-repeat !important;
 	background-size: contain !important;
 	background-position: center center !important;
@@ -50414,7 +50414,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	display: inline-block;
 	width: 30px;
 	height: 21px;
-	background-image: url(/dist/img/domrf_label_online_icon.svg?c5bc90dd8cfd6c395b09286516bbbe57) !important;
+	background-image: url(dist/img/domrf_label_online_icon.svg?c5bc90dd8cfd6c395b09286516bbbe57) !important;
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: contain !important;
@@ -50425,7 +50425,7 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 	display: inline-block;
 	width: 24px;
 	height: 30px;
-	background-image: url(/dist/img/domrf_label_near_icon.svg?1b786919d9d3dc783e10b6f6cfad8d8d) !important;
+	background-image: url(dist/img/domrf_label_near_icon.svg?1b786919d9d3dc783e10b6f6cfad8d8d) !important;
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: contain !important;
@@ -50537,11 +50537,11 @@ label.Order_label_DR4L1.Order_labelWithPadding_IXSDC {
 }
 
 .domrf .Order_paymentIcon_3ZjXT .fa-credit-card {
-	background-image: url(/dist/img/domrf_card_icon.svg?a6037d686cbe0a08d698c5b047357b73);
+	background-image: url(dist/img/domrf_card_icon.svg?a6037d686cbe0a08d698c5b047357b73);
 }
 
 .domrf .Order_paymentIcon_3ZjXT .fa-share {
-	background-image: url(/dist/img/domrf_mail_icon.svg?e4204ae92088ed614adb3386a08bfce3);
+	background-image: url(dist/img/domrf_mail_icon.svg?e4204ae92088ed614adb3386a08bfce3);
 }
 
 .domrf .Order_paymentIcon_3ZjXT .fas {
@@ -53073,7 +53073,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .open .Auth_background_2j1GK {
 	background: #4e5b7a no-repeat 50%;
-	background-image: url(/dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
+	background-image: url(dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
 	background-size: cover;
 	height: 104%;
 	overflow: hidden;
@@ -53145,7 +53145,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .express .Auth_background_2j1GK {
 	background: #4e5b7a no-repeat 50%;
-	background-image: url(/dist/img/express_bg_2.jpg?de988b080342841a2585678b891783bc);
+	background-image: url(dist/img/express_bg_2.jpg?de988b080342841a2585678b891783bc);
 	background-position: 0 0;
 	background-size: cover;
 	background-repeat: no-repeat no-repeat;
@@ -53797,7 +53797,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 }
 
 .metib .Auth_background_2j1GK {
-	background-image: url(/dist/img/metib-background.jpg?ecb4c7d90a94db1217d56b9ef534f1a4);
+	background-image: url(dist/img/metib-background.jpg?ecb4c7d90a94db1217d56b9ef534f1a4);
 	background-size: cover;
 	background-position: center;
 	height: 104%;
@@ -53882,7 +53882,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 }
 
 .uc .Auth_background_2j1GK {
-	background-image: url(/dist/img/UniCredit.jpg?b53b6fd5ecaba403a06b1f1b2b75f5ef);
+	background-image: url(dist/img/UniCredit.jpg?b53b6fd5ecaba403a06b1f1b2b75f5ef);
 	background-size: cover;
 	background-position: center;
 	height: 104%;
@@ -53969,7 +53969,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .sviaz .Auth_background_2j1GK {
 	background: #4e5b7a no-repeat 50%;
-	background-image: url(/dist/img/sviaz_bg.jpg?13c6a4eec123813682c9da6aa42a7832);
+	background-image: url(dist/img/sviaz_bg.jpg?13c6a4eec123813682c9da6aa42a7832);
 	background-size: cover;
 	height: 104%;
 	overflow: hidden;
@@ -54083,7 +54083,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 }
 
 .alfa .Auth_background_2j1GK {
-	background-image: url(/dist/img/alfa_bg_auth.jpg?e270692df472ece64fe3fbad48629825);
+	background-image: url(dist/img/alfa_bg_auth.jpg?e270692df472ece64fe3fbad48629825);
 	background-position: 10% 50%;
 	background-size: cover;
 	height: 104%;
@@ -54103,13 +54103,13 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 @media (max-width: 1400px) {
 	.alfa .Auth_background_2j1GK {
-		background-image: url(/dist/img/alfa_bg_auth2.jpg?8d3ad83fda33c2f445b43a230a736141) !important;
+		background-image: url(dist/img/alfa_bg_auth2.jpg?8d3ad83fda33c2f445b43a230a736141) !important;
 	}
 }
 
 .abb .Auth_background_2j1GK {
 	background-color: #e9e4e3;
-	background-image: url(/dist/img/abb_bg_big.png?59946c3726e2ae393bdccb93e29de57a);
+	background-image: url(dist/img/abb_bg_big.png?59946c3726e2ae393bdccb93e29de57a);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -54180,7 +54180,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .minb .Auth_background_2j1GK {
 	background-color: #c3201d;
-	background-image: url(/dist/img/minb_bg_big.png?df37f7407bfbae5d5a99ccf55ea2d92f);
+	background-image: url(dist/img/minb_bg_big.png?df37f7407bfbae5d5a99ccf55ea2d92f);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -54298,7 +54298,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .ubrr .Auth_background_2j1GK {
 	background-color: #c3201d;
-	background-image: url(/dist/img/ubrr_bg_big.png?eaae9fa4813c9beebdfc3647958f50de);
+	background-image: url(dist/img/ubrr_bg_big.png?eaae9fa4813c9beebdfc3647958f50de);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -54367,7 +54367,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 
 .novikom .Auth_background_2j1GK {
 	background-color: #e0dcdc;
-	background-image: url(/dist/img/novikom_bg.jpg?a94c9a08ed80cf4fa4ab73ade6f1dc3c);
+	background-image: url(dist/img/novikom_bg.jpg?a94c9a08ed80cf4fa4ab73ade6f1dc3c);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -54439,7 +54439,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 }
 
 .sgb .Auth_background_2j1GK {
-	background-image: url(/dist/img/sgb_bg.png?a8fa4321b4add1971321073de4ed541d);
+	background-image: url(dist/img/sgb_bg.png?a8fa4321b4add1971321073de4ed541d);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -54485,7 +54485,7 @@ form.Auth_authBlock_2XCK0 .Auth_reports_value_37UXu {
 }
 
 .avers .Auth_background_2j1GK {
-	background-image: url(/dist/img/avers_bg_auth.jpg?80a7c137180fe85ead055c6099596986);
+	background-image: url(dist/img/avers_bg_auth.jpg?80a7c137180fe85ead055c6099596986);
 	background-size: cover;
 	background-position: center;
 	height: 104%;
@@ -54891,7 +54891,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .open .AuthLiteMortgage_background_1WKdz {
 	background: #4e5b7a no-repeat 50%;
-	background-image: url(/dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
+	background-image: url(dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
 	background-size: cover;
 	height: 104%;
 	overflow: hidden;
@@ -54952,7 +54952,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 		padding-bottom: 237px;
 		padding-left: 65px;
 		padding-right: 65px;
-		background-image: url(/dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
+		background-image: url(dist/img/open_bg2.jpg?204a6edb7c8b168c00629e511aba8e82);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -56354,7 +56354,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .absolut .indexPage .AuthLiteMortgage_background_1WKdz {
-	background-image: linear-gradient(to right, rgba(250,245,241,0.8) 0%, rgba(250,245,241,0.2) 100%),url(/dist/img/absolut_bg_auth.jpg?fdf7ae63862ab55af9bfc0c9f9649e3b);
+	background-image: linear-gradient(to right, rgba(250,245,241,0.8) 0%, rgba(250,245,241,0.2) 100%),url(dist/img/absolut_bg_auth.jpg?fdf7ae63862ab55af9bfc0c9f9649e3b);
 }
 
 .absolut .AuthLiteMortgage_titleBlock_UjuGz h2 {
@@ -56362,7 +56362,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .absolut .AuthLiteMortgage_background_1WKdz {
-	background-image: url(/dist/img/absolut_bg_auth.jpg?fdf7ae63862ab55af9bfc0c9f9649e3b);
+	background-image: url(dist/img/absolut_bg_auth.jpg?fdf7ae63862ab55af9bfc0c9f9649e3b);
 	background-size: cover;
 	background-position: center;
 	height: 104%;
@@ -56759,7 +56759,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .psb .Promo_arrow_1x-lg {
-	background-image: url(/dist/img/psb_arrow_next.svg?b84f6115295982fdfb7eeff97dcc9714);
+	background-image: url(dist/img/psb_arrow_next.svg?b84f6115295982fdfb7eeff97dcc9714);
 }
 
 .psb .Promo_promo_item_1qNk0 {
@@ -56794,17 +56794,17 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .psb .Promo_image_1_2x6FP {
-	background-image: url(/dist/img/psb_promo_logo_1.svg?6bef46b2dea938d1a0c74106d34b3b4e);
+	background-image: url(dist/img/psb_promo_logo_1.svg?6bef46b2dea938d1a0c74106d34b3b4e);
 	background-size: 105px 105px;
 }
 
 .psb .Promo_image_2_28SEj {
-	background-image: url(/dist/img/psb_promo_logo_2.svg?b7e44839e3014a834a148e7c1a8030ed);
+	background-image: url(dist/img/psb_promo_logo_2.svg?b7e44839e3014a834a148e7c1a8030ed);
 	background-size: 125px 125px;
 }
 
 .psb .Promo_image_3_37Ohn {
-	background-image: url(/dist/img/psb_promo_logo_3.svg?142365881614eb4104eaa435f1d87036);
+	background-image: url(dist/img/psb_promo_logo_3.svg?142365881614eb4104eaa435f1d87036);
 	background-size: 110px 110px;
 }
 
@@ -56977,21 +56977,21 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .bspb .Promo_arrow_1x-lg {
-	background-image: url(/dist/img/bspb_arrow_next.svg?ac7191a1a102765e396f314a46f030e5);
+	background-image: url(dist/img/bspb_arrow_next.svg?ac7191a1a102765e396f314a46f030e5);
 }
 
 .bspb .Promo_image_1_2x6FP {
-	background-image: url(/dist/img/bspb_promo_logo_1.svg?4146de5a9996f3d583c66b69582a3d57);
+	background-image: url(dist/img/bspb_promo_logo_1.svg?4146de5a9996f3d583c66b69582a3d57);
 	background-size: 105px 105px;
 }
 
 .bspb .Promo_image_2_28SEj {
-	background-image: url(/dist/img/bspb_promo_logo_2.svg?6db699fc77662e8794417f1b6426fc51);
+	background-image: url(dist/img/bspb_promo_logo_2.svg?6db699fc77662e8794417f1b6426fc51);
 	background-size: 125px 125px;
 }
 
 .bspb .Promo_image_3_37Ohn {
-	background-image: url(/dist/img/bspb_promo_logo_3.svg?87dcbb895f081f235109215a1d1c55a1);
+	background-image: url(dist/img/bspb_promo_logo_3.svg?87dcbb895f081f235109215a1d1c55a1);
 	background-size: 110px 110px;
 }
 
@@ -57113,7 +57113,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .slick-prev {
 	left: -30px;
-	background-image: url(/dist/img/arrow_prev.png?4b425d3abb20d7090af384903b250e57);
+	background-image: url(dist/img/arrow_prev.png?4b425d3abb20d7090af384903b250e57);
 }
 
 @media (max-width: 1200px) {
@@ -57124,7 +57124,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .slick-next {
 	right: -30px;
-	background-image: url(/dist/img/arrow_next.png?a429ba604ddc535293768109870c97dd);
+	background-image: url(dist/img/arrow_next.png?a429ba604ddc535293768109870c97dd);
 }
 
 @media (max-width: 1200px) {
@@ -57470,12 +57470,12 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .psb .slick-prev {
 	left: 30px;
-	background-image: url(/dist/img/arrow_prev_psb.png?ecd103216250edb7fba1a1484cc006c1);
+	background-image: url(dist/img/arrow_prev_psb.png?ecd103216250edb7fba1a1484cc006c1);
 }
 
 .psb .slick-next {
 	right: 20px;
-	background-image: url(/dist/img/arrow_next_psb.png?5167443c33eedaf592b4074378bb1869);
+	background-image: url(dist/img/arrow_next_psb.png?5167443c33eedaf592b4074378bb1869);
 }
 
 .psb .slick-dots li>button {
@@ -59797,7 +59797,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 	display: inline-block;
 	height: 24px;
 	padding-left: 40px;
-	background-image: url(/dist/img/open_logout_icon.svg?e7b2319ce55e01b527af3cd061c83d16);
+	background-image: url(dist/img/open_logout_icon.svg?e7b2319ce55e01b527af3cd061c83d16);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: left center;
@@ -60007,7 +60007,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .express .BaseLayout_root_2AHUj {
 	background-color: #fafafa;
-	background-image: url(/dist/img/express_bg.jpg?bca8d0d7215ea4d3c4557e250528ee2f);
+	background-image: url(dist/img/express_bg.jpg?bca8d0d7215ea4d3c4557e250528ee2f);
 	background-position: center 0;
 	background-repeat: no-repeat no-repeat;
 	background-size: cover;
@@ -61491,7 +61491,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .rshb .BaseLayout_root_2AHUj {
 	background-color: #f8f6f0;
-	background-image: url(/dist/img/rshb_bg_2.jpg?a21b216208734805b026495021534635);
+	background-image: url(dist/img/rshb_bg_2.jpg?a21b216208734805b026495021534635);
 	background-position: 60% -500px;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -62317,7 +62317,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .metib .BaseLayout_root_2AHUj {
 	background-color: #fff;
-	background-image: url(/dist/img/metib_bg.jpg?0251c535a9e568031ec38e152d088f85);
+	background-image: url(dist/img/metib_bg.jpg?0251c535a9e568031ec38e152d088f85);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: auto 1400px;
@@ -63070,7 +63070,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .uc .BaseLayout_root_2AHUj {
 	background-color: #fafafa;
-	background-image: url(/dist/img/UniCredit.jpg?b53b6fd5ecaba403a06b1f1b2b75f5ef);
+	background-image: url(dist/img/UniCredit.jpg?b53b6fd5ecaba403a06b1f1b2b75f5ef);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: auto 1400px;
@@ -63638,7 +63638,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .sviaz .BaseLayout_root_2AHUj {
-	background-image: url(/dist/img/sviaz_bg.jpg?13c6a4eec123813682c9da6aa42a7832);
+	background-image: url(dist/img/sviaz_bg.jpg?13c6a4eec123813682c9da6aa42a7832);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: auto 700px;
@@ -63839,7 +63839,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .alfa .BaseLayout_root_2AHUj {
 	background-color: #f3f4f5;
-	background-image: url(/dist/img/alfa_bg.jpg?8e75a0077cc08d464c4538b8ec9d32c6);
+	background-image: url(dist/img/alfa_bg.jpg?8e75a0077cc08d464c4538b8ec9d32c6);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: auto 1440px;
@@ -64945,7 +64945,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .sgb .BaseLayout_background_2bonY {
-	background-image: url(/dist/img/sgb_bg.png?a8fa4321b4add1971321073de4ed541d);
+	background-image: url(dist/img/sgb_bg.png?a8fa4321b4add1971321073de4ed541d);
 	background-size: cover;
 	background-position: center center;
 	height: 104%;
@@ -65528,7 +65528,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .mkb .BaseLayout_root_2AHUj {
-	background-image: url(/dist/img/mkb_bg.jpg?9b0399d85fd60501ddc4242658c1a13b);
+	background-image: url(dist/img/mkb_bg.jpg?9b0399d85fd60501ddc4242658c1a13b);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	height: auto;
@@ -66065,7 +66065,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 
 .sogaz .BaseLayout_footer_3qIfd {
 	padding: 0;
-	background-image: url(/dist/img/sogaz_bg.png?fcd62ab22d59340c3159c9394a4badd9);
+	background-image: url(dist/img/sogaz_bg.png?fcd62ab22d59340c3159c9394a4badd9);
 	background-color: #fff;
 }
 
@@ -66394,7 +66394,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 .vtbins .BaseLayout_root_2AHUj.indexPage {
 	background-size: cover;
 	background-position: center;
-	background-image: url(/dist/img/bg_vtbins.jpg?f49562149070fb1c1262a6e3332fdfa7);
+	background-image: url(dist/img/bg_vtbins.jpg?f49562149070fb1c1262a6e3332fdfa7);
 }
 
 .vtbins .BaseLayout_root_2AHUj .BaseLayout_profileName_eWVJq {
@@ -67820,7 +67820,7 @@ label.StandardMainPage_label_2Syqe>*:not(:first-child) {
 	margin: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	background-image: url(/dist/img/domrf_bg.jpg?cb4442dd034d0bed7e5c9eb938976ad0);
+	background-image: url(dist/img/domrf_bg.jpg?cb4442dd034d0bed7e5c9eb938976ad0);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -68581,7 +68581,7 @@ label.StandardMainPage_label_2Syqe>*:not(:first-child) {
 
 .sovcom .StandardMainPage_root_fvqvz {
 	width: 100%;
-	background-image: url(/dist/img/bg2.jpg?97f4ae557d1673d7d375ed08bfc4690e);
+	background-image: url(dist/img/bg2.jpg?97f4ae557d1673d7d375ed08bfc4690e);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
@@ -70039,7 +70039,7 @@ label.StandardMainPage_label_2Syqe>*:not(:first-child) {
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-image: url(/dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
+	background-image: url(dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
 	background-repeat: no-repeat !important;
 	background-size: contain !important;
 	background-position: center center !important;
@@ -70510,7 +70510,7 @@ div.ErrorBoundary_title_QbiGu {
 	width: 26px;
 	height: 26px;
 	content: "";
-	background-image: url(/dist/img/partner_close_icon.png?47e5f40e03fd5f93d18d5b418e87291f) !important;
+	background-image: url(dist/img/partner_close_icon.png?47e5f40e03fd5f93d18d5b418e87291f) !important;
 	color: #000;
 }
 
@@ -71493,7 +71493,7 @@ div.ErrorBoundary_title_QbiGu {
 	width: 32px;
 	height: 32px;
 	margin-bottom: 15px;
-	background-image: url(/dist/img/open_plus_icon.svg?ce92d93980c30210b87b3cea2667ec4f);
+	background-image: url(dist/img/open_plus_icon.svg?ce92d93980c30210b87b3cea2667ec4f);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 32px auto;
@@ -71562,7 +71562,7 @@ div.ErrorBoundary_title_QbiGu {
 	height: 24px;
 	border: none;
 	background-color: #dde7f0;
-	background-image: url(/dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
+	background-image: url(dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 20px auto;
@@ -71614,7 +71614,7 @@ div.ErrorBoundary_title_QbiGu {
 	height: 16px;
 	margin-left: 12px;
 	margin-right: 6px;
-	background-image: url(/dist/img/open_uploader_success.svg?f5c4fde007d711c71ddd5f0f4b257395);
+	background-image: url(dist/img/open_uploader_success.svg?f5c4fde007d711c71ddd5f0f4b257395);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px auto;
@@ -71657,7 +71657,7 @@ div.ErrorBoundary_title_QbiGu {
 	height: 24px;
 	border: none;
 	background-color: inherit;
-	background-image: url(/dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
+	background-image: url(dist/img/open_uploader_close.svg?d9498e29095bc06b1f26113b5af27004);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 20px auto;
@@ -71752,7 +71752,7 @@ div.ErrorBoundary_title_QbiGu {
 		display: block;
 		width: 30px;
 		height: 30px;
-		background-image: url(/dist/img/icon_close.png?3499100969f62ff3ba75985c884d3f2a);
+		background-image: url(dist/img/icon_close.png?3499100969f62ff3ba75985c884d3f2a);
 		background-repeat: no-repeat;
 	}
 
@@ -71766,7 +71766,7 @@ div.ErrorBoundary_title_QbiGu {
 		position: absolute;
 		content: "";
 		display: block;
-		background-image: url(/dist/img/icon_down.png?44ccb9a899716c87ae12cd87abbba3e9);
+		background-image: url(dist/img/icon_down.png?44ccb9a899716c87ae12cd87abbba3e9);
 	}
 }
 
@@ -72585,7 +72585,7 @@ div.ErrorBoundary_title_QbiGu {
 	border: 0 !important;
 	border-radius: 0;
 	box-shadow: none !important;
-	background-image: url(/dist/img/open_plus_icon_light.svg?4e3e6848a967c3b2130ccd90e128cfa2);
+	background-image: url(dist/img/open_plus_icon_light.svg?4e3e6848a967c3b2130ccd90e128cfa2);
 	background-repeat: no-repeat;
 	background-size: 25px auto;
 	background-position: 38px center;
@@ -72753,7 +72753,7 @@ div.ErrorBoundary_title_QbiGu {
 	display: inline-block;
 	width: 24px;
 	height: 24px !important;
-	background-image: url(/dist/img/open_trash_black_icon.svg?31895af0e23e2e74ff176317b706b826);
+	background-image: url(dist/img/open_trash_black_icon.svg?31895af0e23e2e74ff176317b706b826);
 	background-repeat: no-repeat;
 	background-size: 18px auto;
 	background-position: center;
@@ -72790,7 +72790,7 @@ div.ErrorBoundary_title_QbiGu {
 	width: 15px !important;
 	height: 10px !important;
 	padding: 0 !important;
-	background-image: url(/dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
+	background-image: url(dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -73005,7 +73005,7 @@ div.ErrorBoundary_title_QbiGu {
 	line-height: 20px;
 	font-weight: 400;
 	color: #E56262;
-	background-image: url(/dist/img/open_trash_red_icon.svg?5d157682d173b5ecdecaebcfeec99952);
+	background-image: url(dist/img/open_trash_red_icon.svg?5d157682d173b5ecdecaebcfeec99952);
 	background-repeat: no-repeat;
 	background-size: auto 20px;
 	background-position: left center;
@@ -73344,7 +73344,7 @@ div.ErrorBoundary_title_QbiGu {
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-image: url(/dist/img/domrf_plus_icon.svg?0bcc37797cffeb2a294d9f0b41cf5aa9) !important;
+	background-image: url(dist/img/domrf_plus_icon.svg?0bcc37797cffeb2a294d9f0b41cf5aa9) !important;
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: contain !important;
@@ -73396,7 +73396,7 @@ div.ErrorBoundary_title_QbiGu {
 .domrf .OrderList_deleteButton_1glyr i {
 	height: 24px !important;
 	width: 24px;
-	background-image: url(/dist/img/domrf_trash_icon.svg?24885d06513fe7d29b69eb8078f4d87b);
+	background-image: url(dist/img/domrf_trash_icon.svg?24885d06513fe7d29b69eb8078f4d87b);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -76664,7 +76664,7 @@ div.ErrorBoundary_title_QbiGu {
 .InsuranceModule_showOtherCompanyButton_21E6h i {
 	display: block;
 	margin-left: 12px;
-	background-image: url(/dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
+	background-image: url(dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 16px;
@@ -76851,7 +76851,7 @@ div.ErrorBoundary_title_QbiGu {
 	box-shadow: none;
 	height: auto;
 	white-space: normal;
-	background-image: url(/dist/img/arrow-down.svg?212faca125fb0ec6176bce405d0356ec);
+	background-image: url(dist/img/arrow-down.svg?212faca125fb0ec6176bce405d0356ec);
 	background-origin: content-box;
 	background-position: right -1rem center;
 	background-repeat: no-repeat;
@@ -77839,7 +77839,7 @@ div.ErrorBoundary_title_QbiGu {
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
-	background-image: url(/dist/img/open_trash_black_icon.svg?31895af0e23e2e74ff176317b706b826);
+	background-image: url(dist/img/open_trash_black_icon.svg?31895af0e23e2e74ff176317b706b826);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -78010,7 +78010,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open i.icon.question:before {
-	content: url(/dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
+	content: url(dist/img/open_popup_icon.svg?903e97036a1da2bf1ec0ce4088899404) !important;
 }
 
 .open .ui.error.message {
@@ -78113,7 +78113,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .InsuranceModule_fieldWrapper_27dn6 i.icon.calendar:before {
-	content: url(/dist/img/open_calendar_icon.svg?fe5ba9f95f0e27c4922c23ff5afa585c);
+	content: url(dist/img/open_calendar_icon.svg?fe5ba9f95f0e27c4922c23ff5afa585c);
 }
 
 .open .InsuranceModule_input_ItQ0n input,.open .InsuranceModule_input_ItQ0n textarea {
@@ -78220,7 +78220,7 @@ div.ErrorBoundary_title_QbiGu {
 	width: 15px !important;
 	height: 10px !important;
 	padding: 0 !important;
-	background-image: url(/dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
+	background-image: url(dist/img/open_dropdown_arrow.svg?f9008e3b0fdc25a06552c514c06c5db2);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -78428,7 +78428,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .InsuranceModule_paymentDocuments_1vW2g i.icon.InsuranceModule_isPaid_2AOAp {
-	background-image: url(/dist/img/open_mark.png?3c8dd89c4c6b2514111faeab01cdbd3d);
+	background-image: url(dist/img/open_mark.png?3c8dd89c4c6b2514111faeab01cdbd3d);
 	background-size: cover;
 }
 
@@ -78605,7 +78605,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .InsuranceModule_insboxRevision_3GhN2 .InsuranceModule_insboxRevisionActions_2T0qx .InsuranceModule_downloadLink_15Y3- a .downloadIcon-pdf {
-	background-image: url(/dist/img/open_pdf_icon.svg?c8f989fdfdcb79de57a2c5c4317c9db4);
+	background-image: url(dist/img/open_pdf_icon.svg?c8f989fdfdcb79de57a2c5c4317c9db4);
 }
 
 .open .InsuranceModule_insboxConfirm_MuQb_ {
@@ -78859,7 +78859,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .InsuranceModule_card_xzvpq .InsuranceModule_cardContent_3nmrI i.icon.search:before {
-	content: url(/dist/img/open_search.svg?fa09eccbc6c941e69df48c7d2f8737e1);
+	content: url(dist/img/open_search.svg?fa09eccbc6c941e69df48c7d2f8737e1);
 }
 
 .open .InsuranceModule_card_xzvpq .InsuranceModule_cardFooter_10Eit .ui.button:not(.basic) {
@@ -78929,7 +78929,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .InsuranceModule_card_xzvpq .InsuranceModule_cardFooter_10Eit .ui.button.basic.primary:before {
-	content: url(/dist/img/open_arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
+	content: url(dist/img/open_arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
 	position: absolute;
 	left: 0;
 	top: 8px;
@@ -81381,18 +81381,18 @@ div.ErrorBoundary_title_QbiGu {
 	flex: 0 0 20px;
 	height: 20px;
 	margin-right: 5px;
-	background-image: url(/dist/img/arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
+	background-image: url(dist/img/arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
 }
 
 .DownloadDocuments_downloadDocumentWrapper_1h9CF .DownloadDocuments_downloadIcon_1JvhN.downloadIcon-pdf {
-	background-image: url(/dist/img/PDF-download-file.svg?5a9681c876cc158bf5e71eaa13bc162e);
+	background-image: url(dist/img/PDF-download-file.svg?5a9681c876cc158bf5e71eaa13bc162e);
 }
 
 .DownloadDocuments_downloadDocumentWrapper_1h9CF .DownloadDocuments_downloadIcon_1JvhN.loading {
-	background-image: url(/dist/img/loader.svg?21413a3840af393e39c1c6866200cd38) !important;
+	background-image: url(dist/img/loader.svg?21413a3840af393e39c1c6866200cd38) !important;
 }
 
 .bspb .DownloadDocuments_downloadButton_13Gi6 {
@@ -81404,7 +81404,7 @@ div.ErrorBoundary_title_QbiGu {
 }
 
 .open .DownloadDocuments_downloadIcon_1JvhN.downloadIcon-pdf {
-	background-image: url(/dist/img/arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
+	background-image: url(dist/img/arrow_down.svg?dc2a1a872abba0e336c6182d28e917d0);
 }
 
 .Stepper__wrapper {
@@ -81913,7 +81913,7 @@ div.ErrorBoundary_title_QbiGu {
 
 .abr .Appraisal_appraisalFormWrapper_OxJhz {
 	width: 100%;
-	background-image: url(/dist/img/abr_bg_2.jpg?438bf9781401ff108ef62a09b970f424);
+	background-image: url(dist/img/abr_bg_2.jpg?438bf9781401ff108ef62a09b970f424);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
