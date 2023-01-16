@@ -5,18 +5,15 @@
     <title>Официальный сервис заказа оценки коммерческой и жилой недвижимости для кредитования в ВТБ (ПАО)</title>
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно.">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-   
     <link href="dist/font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="dist/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
     <link rel="icon" href="dist/vtb_favicon.png" type="image/png">
-    
     <link href="dist/app.css?433ce296ae3896ccbd04" rel="stylesheet">
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно." data-react-helmet="true">
   </head>
   <body class="theme-kn vtb">
-    
     <div id="root">
       <div id="standardPageRoot" class="BaseLayout_root_2AHUj theme-kn">
         <div class="BaseLayout_headerWrapper_1Py4s BaseLayout_headerBaseColor_2QYDj">
@@ -30,9 +27,7 @@
                   <h3 class="BaseLayout_headerTitle_14z40">Сервис заказа оценки коммерческой и жилой недвижимости рекомендован ВТБ</h3>
                   <div class="BaseLayout_right_17Srl">
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlock_r6nN7 " href="/credit/order/">
-                     <!--  <div class="BaseLayout_image_-q7Sh">
-                        <i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i>
-                      </div> -->
+                      <!--  <div class="BaseLayout_image_-q7Sh"><i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i></div> -->
                       <span id="profileLink" class="ym-hide-content">+7986***8073</span>
                     </a>
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlockLogoff_234fX" id="profileBlockLogoffLink">Выйти</a>
@@ -64,13 +59,11 @@
                     <label for="credit">Для выдачи нового кредита</label>
                   </div>
                 </div>
-               
-                
               </div>
               <h3 class="Main_regionBlockTitle_1dR33">Выберите тип объекта для оценки: </h3>
               <div class="field">
                 <div class="ui checked radio checkbox">
-                  <input class="hidden" id="apartment" name="radioGroup" readonly="" tabindex="0" type="radio" value="APARTMENT" checked="">
+                  <input class="hidden" id="apartment" name="radioGroup" readonly="" tabindex="0" type="radio" value="APARTMENT">
                   <label for="apartment">Квартира/Жилые апартаменты</label>
                 </div>
               </div>
@@ -82,10 +75,9 @@
               </div>
               <div class="field">
                 <div class="ui radio checkbox">
-                  <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="0" type="radio" value="PARKING_PLACE_AND_STOREROOM">
+                  <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="0" type="radio" value="PARKING_PLACE_AND_STOREROOM" checked="">
                   <label for="commercial">Коммерческая недвижимость</label>
                 </div>
-               
               </div>
               <div class="ui form Order_row_20pIF Order_module_3I1DO">
                 <div class="Order_col_36Ya-">
@@ -101,30 +93,18 @@
                   </div>
                 </div>
               </div>
-              <div class="ui form Order_row_20pIF Order_street_2KvsK Order_module_3I1DO">
-                <div class="Order_col_36Ya- Order_street_2KvsK">
+              <div class="ui form Order_row_20pIF Order_module_3I1DO">
+                <div class="Order_col_36Ya-">
                   <div class="required field">
                     <label class="Order_label_DR4L1">
-                      <b>Улица, Дом</b>
+                      <b>Город</b>
                     </label>
-                    <div class="Autocomplete_root__yI0E8" style="z-index: 1;">
-                      <div style="display: inline-block;">
-                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="streetSelect" spellcheck="false" maxlength="150" class=" " value="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="ui form Order_col_36Ya- Order_flat_2tYRQ Order_module_3I1DO">
-                  <div class="required field">
-                    <label class="Order_label_DR4L1">
-                      <b>Квартира</b>
-                    </label>
-                    <div class="ui fluid input 
-              Input_root__2YHmd
-              
-              
-            "> 
-                      <input maxlength="9" id="flatNumber" type="text" value="" inputmode="text">
+                    <div class="ui disabled fluid input 
+                Input_root__2YHmd
+                
+                
+              ">
+                      <input id="cityWithType" disabled="" type="text" tabindex="-1" value="г Москва" inputmode="text">
                     </div>
                   </div>
                 </div>
@@ -141,62 +121,24 @@
                 <div class="ui form Order_col_36Ya- Order_module_3I1DO">
                   <div class="required field">
                     <label class="Order_label_DR4L1 undefined">
-                      <b>Количество комнат</b>
+                      <b>Тип коммерческой недвижимости
+                      </b>
                     </label>
                     <div class="Select_root__2yqJb">
                       <select name="" id="" class='selectbox'>
                         <option value="Не выбрано">Не выбрано</option>
-                        <option value="Студия">Студия</option>
-                        <option value="1-комнатная">1-комнатная</option>
-                        <option value="2-комнатная">2-комнатная</option>
-                        <option value="3-комнатная">3-комнатная</option>
-                        <option value="4-комнатная и более">4-комнатная и более</option>
-                        <option value="Свободная планировка">Свободная планировка</option>
-                      </select><!-- /# -->
-                     <!--  <div id="objectRooms" role="listbox" aria-disabled="false" aria-expanded="false" aria-multiselectable="false" class="ui fluid selection dropdown" tabindex="0">
-                        <div class="default text" role="alert" aria-live="polite">Не выбрано</div>
-                        <i aria-hidden="true" class="dropdown icon"></i>
-                        <div class="menu transition">
-                          <div role="option" aria-checked="true" aria-selected="true" class="active selected item" style="pointer-events: all;">
-                            <span class="text">Не выбрано</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">Студия</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">1-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">2-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">3-комнатная</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">4-комнатная и более</span>
-                          </div>
-                          <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                            <span class="text">Свободная планировка</span>
-                          </div>
-                        </div>
-                      </div> -->
+                        <option value="Встроенное помещение">Встроенное помещение</option>
+                        <option value="Отдельно стоящее здание">Отдельно стоящее здание</option>
+                        <option value="Единый комплекс">Единый комплекс</option>
+                        <option value="Земельный участок">Земельный участок</option>
+                        <option value="Иное">Иное</option>
+                      </select>
+                      <!-- /# -->
+                      <!--  <div id="commercialObjectType" role="listbox" aria-disabled="false" aria-expanded="true" aria-multiselectable="false" class="ui active visible fluid selection dropdown" tabindex="0"><div class="text" role="alert" aria-live="polite">Встроенное помещение</div><i aria-hidden="true" class="dropdown icon"></i><div class="visible menu transition"><div role="option" aria-checked="true" aria-selected="true" class="active selected item" style="pointer-events: all;"><span class="text">Встроенное помещение</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">Отдельно стоящее здание</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">Единый комплекс</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">Земельный участок</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">Иное</span></div></div></div>-->
                     </div>
                   </div>
                 </div>
-                <div class="ui form Order_col_36Ya- Order_module_3I1DO">
-                  <div class="required field">
-                    <label class="Order_label_DR4L1">
-                      <b>Этаж расположения</b>
-                    </label>
-                    <div class="ui fluid input 
-              Input_root__2YHmd
-              
-              
-            ">
-                      <input maxlength="3" id="objectFloorByUser" type="text" placeholder="0" inputmode="numeric">
-                    </div>
-                  </div>
-                </div>
+               
               </div>
               <div class="field">
                 <div class="Main_footerBtnsContainer_6rcaO">
@@ -209,6 +151,8 @@
                 </div>
               </div>
             </div>
+
+            
           </div>
         </div>
         <div class="BaseLayout_footer_3qIfd" id="footer">
