@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
   document.querySelectorAll('.dropdown').forEach(dropdown => {
     let $dropdown = dropdown
@@ -45,6 +47,35 @@ $(document).ready(function() {
       $('body').addClass('dimmable dimmed scrolling')
 
     })
+
+    $('input[name="login"]').mask('+7 (999)999-99-99')
+    $('#agentPhone').mask('+7 (999)999-99-99')
+
+
+    $('sup').on('mouseenter', function() {
+      $(this).find('.popup').addClass('visible')
+    })
+    $('.popup').on('mouseleave', function() {
+       $(this).removeClass('visible')
+    })
+
+    function closeByClickOutside(element, button) {
+      $(document).click(function(event) {
+          if (!$(event.target).closest(`${element},${button}`).length) {
+              $(button).removeClass('visible')
+              $(element).removeClass('visible')
+          }
+      });
+      
+      $(document).keyup(function(e) {
+          if (e.key === "Escape") { // escape key maps to keycode `27`
+              $(button).removeClass('visible')
+              $(element).removeClass('visible')
+          }
+      });
+    }
+
+    closeByClickOutside('.popup', 'sup')
     
    /*  $(document).keyup(function(e) {
         if (e.key === "Escape") { 

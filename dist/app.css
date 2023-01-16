@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
 
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;
-
-0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap);
 .Toastify__toast-container {
 	z-index: 9999;
 	-webkit-transform: translate3d(0, 0, 9999px);
@@ -16961,8 +16959,8 @@ ol.ui.list li[value]:before {
 	display: flex;
 }
 
-.ui.form.error .error.message:not(:empty) {
-	display: block;
+.error .error.message {
+	display: block !important;
 }
 
 .ui.form.error .compact.error.message:not(:empty) {
@@ -27273,6 +27271,7 @@ a.ui.nag {
 	position: absolute;
 	top: 0;
 	right: 0;
+	left: -5px;
 	min-width: -webkit-min-content;
 	min-width: -moz-min-content;
 	min-width: min-content;
@@ -37274,7 +37273,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 .vtb .Index_headerMainPage_1_3mw {
 	width: 100%;
-	background-image: url(dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
+	background-image: url(../dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -37284,7 +37283,7 @@ i.info.Main_infoIcon_2k8X6 {
 
 @media (max-width: 1090px) {
 	.vtb .Index_headerMainPage_1_3mw {
-		background-image: url(dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
+		background-image: url(../dist/img/bg_vtb.jpg?f49562149070fb1c1262a6e3332fdfa7);
 		height: 302px;
 	}
 }
@@ -37387,6 +37386,7 @@ i.info.Main_infoIcon_2k8X6 {
 	align-items: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+	text-align: center;
 }
 
 @media (max-width: 1090px) {
@@ -37426,9 +37426,11 @@ i.info.Main_infoIcon_2k8X6 {
 }
 
 .vtb .Index_makeOrderBlock_3pma1 .Index_makeOrderSegment_298FD:hover .Index_orderButtons_2ajb4 {
-	-webkit-transform: translate(0, -65%);
+	/* -webkit-transform: translate(0, -65%);
 	-ms-transform: translate(0, -65%);
-	transform: translate(0, -65%);
+	transform: translate(0, -65%); */
+	display: block !important;
+	transform: translateY(-62%);
 }
 
 @media (max-width: 1090px) {
@@ -37461,7 +37463,8 @@ i.info.Main_infoIcon_2k8X6 {
 .vtb .Index_makeOrderBlock_3pma1 .Index_orderButton_3XYvx,.vtb .Index_makeOrderBlock_3pma1 .Index_detailsButton_28ti3 {
 	width: 196px;
 	border-radius: 10px;
-	margin: 0;
+	margin: auto;
+	text-align: center;
 }
 
 @media (max-width: 1090px) {
@@ -60882,7 +60885,7 @@ form.AuthLiteMortgage_authBlock_29Q_U .AuthLiteMortgage_reports_value_59pi_ {
 }
 
 .vtb .BaseLayout_root_2AHUj .BaseLayout_logoMainMenu_1LG_o {
-	height: 34px;
+	height: 64px;
 	margin-top: -15px;
 }
 
@@ -84931,9 +84934,20 @@ div.ErrorBoundary_title_QbiGu {
 		height: 60px !important;
     padding-top: 19px;
 }
-
+/* 
 .field i.blue.info.circle.large.icon {
  display:none !important;
+}
+ */
+sup {
+	position: relative;
+}
+
+sup .popup {
+	left: -8px !important;
+	top: -8px !important;
+	min-width: 211px !important;
+	transform: translateY(-100%) !important;
 }
 
 

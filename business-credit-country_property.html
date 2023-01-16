@@ -5,6 +5,7 @@
     <title>Официальный сервис заказа оценки коммерческой и жилой недвижимости для кредитования в ВТБ (ПАО)</title>
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно.">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+   
     <link href="dist/font.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="dist/font-awesome.css" rel="stylesheet">
@@ -14,7 +15,7 @@
     <link href="dist/app.css?433ce296ae3896ccbd04" rel="stylesheet">
     <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно." data-react-helmet="true">
   </head>
-  <body class="theme-kn vtb" wfd-invisible="true">
+  <body class="theme-kn vtb">
     
     <div id="root">
       <div id="standardPageRoot" class="BaseLayout_root_2AHUj theme-kn">
@@ -29,9 +30,9 @@
                   <h3 class="BaseLayout_headerTitle_14z40">Сервис заказа оценки коммерческой и жилой недвижимости рекомендован ВТБ</h3>
                   <div class="BaseLayout_right_17Srl">
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlock_r6nN7 " href="/credit/order/">
-                      <div class="BaseLayout_image_-q7Sh">
+                     <!--  <div class="BaseLayout_image_-q7Sh">
                         <i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i>
-                      </div>
+                      </div> -->
                       <span id="profileLink" class="ym-hide-content">+7986***8073</span>
                     </a>
                     <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlockLogoff_234fX" id="profileBlockLogoffLink">Выйти</a>
@@ -46,25 +47,92 @@
         </div>
         <div id="contentBlock" class="BaseLayout_content_3xq4B">
           <div class="Auth_background_2j1GK"></div>
-          <div class="Auth_root_kDdMR" style="display: none;" wfd-invisible="true"></div>
+          <div class="Auth_root_kDdMR" style="display: none;"></div>
           <div class="Auth_root_kDdMR" style="display: flex;">
-            <h1 class="Main_title_3ti6n Main_selectorTitle_2GSYJ">Закажите оценку <br>недвижимости </h1>
+            <h1 class="Main_title_3ti6n">Закажите оценку недвижимости для выдачи нового кредита в ВТБ (ПАО)</h1>
             <div class="Main_hr_3hpXS"></div>
             <div class="Main_regionBlock_1fATW">
+              <div class="ui message Main_creditingTypeMessage_3D8pS">
+                <span>Тип кредитования: </span>
+                <b>Кредиты частным лицам</b>
+              </div>
               <div class="field">
-                <h3 class="Main_regionBlockTitle_1dR33 Main_individualCreditingTitle_NrrqW">Выберите тип кредитования: </h3>
-                <div class="Main_row_1kOZT">
-                  <div class="field Main_field_12f_A Main_individualCreditingField_1gaUV">
-                    <div class="ui radio checkbox">
-                      <input class="hidden" id="individualCredit" name="radioTypeOfCrediting" readonly="" tabindex="0" type="radio" value="INDIVIDUAL">
-                      <label for="individualCredit">Кредиты частным лицам</label>
+                <h3 class="Main_regionBlockTitle_1dR33">Выберите цель оценки: </h3>
+                <div class="field Main_field_12f_A">
+                  <div class="ui checked radio checkbox">
+                    <input class="hidden" id="credit" name="orderTypeGroup" readonly="" tabindex="0" type="radio" value="credit" checked="">
+                    <label for="credit">Для выдачи нового кредита</label>
+                  </div>
+                </div>
+               
+              </div>
+              <h3 class="Main_regionBlockTitle_1dR33">Выберите тип объекта для оценки: </h3>
+              <div class="field">
+                <div class="ui checked radio checkbox">
+                  <input class="hidden" id="apartment" name="radioGroup" readonly="" tabindex="0" type="radio" value="APARTMENT">
+                  <label for="apartment">Квартира/Жилые апартаменты</label>
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui radio checkbox">
+                  <input class="hidden" id="country_property" name="radioGroup" readonly="" tabindex="0" type="radio" value="COUNTRY_PROPERTY"  checked="">
+                  <label for="country_property">Индивидуальный жилой дом/Таунхаус/Земельный участок</label>
+                </div>
+              </div>
+              <div class="field">
+                <div class="ui radio checkbox">
+                  <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="0" type="radio" value="PARKING_PLACE_AND_STOREROOM">
+                  <label for="commercial">Машиноместа/кладовки</label>
+                </div>
+               <!--  <sup>
+                  <i aria-hidden="true" class="blue info circle large icon"></i>
+                </sup> -->
+              </div>
+              <div class="ui form Order_row_20pIF Order_module_3I1DO">
+                <div class="Order_col_36Ya-">
+                  <div class="required field">
+                    <label class="Order_label_DR4L1">
+                      <b>Регион, Населенный пункт</b>
+                    </label>
+                    <div class="Autocomplete_root__yI0E8" style="z-index: 1;">
+                      <div style="display: inline-block;">
+                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="regionSelect" spellcheck="false" class=" " value="">
+                      </div>
                     </div>
                   </div>
-                  <div class="field Main_field_12f_A">
-                    <div class="ui radio checkbox">
-                      <input class="hidden" id="smallBusiness" name="radioTypeOfCrediting" readonly="" tabindex="0" type="radio" value="SMALL_BUSINESS">
-                      <label for="smallBusiness">Кредиты малому, среднему, крупному бизнесу</label>
+                </div>
+              </div>
+              <div class="ui form Order_row_20pIF Order_street_2KvsK Order_module_3I1DO">
+                <div class="Order_col_36Ya- Order_street_2KvsK">
+                  <div class="required field">
+                    <label class="Order_label_DR4L1">
+                      <b>Улица, Дом</b>
+                    </label>
+                    <div class="Autocomplete_root__yI0E8" style="z-index: 1;">
+                      <div style="display: inline-block;">
+                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" id="streetSelect" spellcheck="false" maxlength="150" class=" " value="">
+                      </div>
                     </div>
+                  </div>
+                </div>
+               
+              </div>
+              <div class="ui form Order_row_20pIF">
+                <div class="field">
+                  <div class="ui checkbox">
+                    <input class="hidden" id="inputManual" readonly="" tabindex="0" type="checkbox" value="">
+                    <label for="inputManual">Самостоятельный ввод адреса при отсутствии его в справочнике</label>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="field">
+                <div class="Main_footerBtnsContainer_6rcaO">
+                  <div class="Main_buttonWrapper_1OqBg">
+                    <button class="ui huge button Main_backButton_2t0_F">Назад</button>
+                  </div>
+                  <div class="Main_buttonWrapper_1OqBg">
+                    <button id="makeOnlineOrderButton" class="ui huge primary button Main_button_2x-31">Далее</button>
                   </div>
                 </div>
               </div>
@@ -98,8 +166,8 @@
       </div>
     </div>
   </body>
-<script src='dist/jquery.min.js'></script>
-  <script src='dist/selectbox.js'></script>
+  <script src='dist/jquery.min.js'></script>
+    <script src='dist/selectbox.js'></script>
   <script src='dist/maskedinput.min.js'></script>
   <script src='dist/main.js'></script>
 </html>

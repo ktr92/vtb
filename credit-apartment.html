@@ -99,9 +99,15 @@
                   <input class="hidden" id="commercial" name="radioGroup" readonly="" tabindex="0" type="radio" value="PARKING_PLACE_AND_STOREROOM">
                   <label for="commercial">Машиноместа/кладовки</label>
                 </div>
-                <!-- <sup>
+                <sup>
                   <i aria-hidden="true" class="blue info circle large icon"></i>
-                </sup> -->
+
+                   <div class="ui top left large popup transition " style="">
+                  <p>Если нужно оценить одновременно квартиру и машиноместо / кладовку то:</p>
+                  <p>Закажите сначала оценку квартиры <a href="https://zalog-ocenka.ru/credit/?typeOfCrediting=individual&amp;realtyType=apartment">здесь</a>, и у оценщика квартиры можете затем заказать оценку машиноместа/кладовки. </p>
+                </div>
+
+                </sup>
               </div>
               <div class="ui form Order_row_20pIF Order_module_3I1DO">
                 <div class="Order_col_36Ya-">
@@ -209,7 +215,7 @@
               
               
             ">
-                      <input maxlength="3" id="objectFloorByUser" type="text" value="" inputmode="numeric">
+                      <input maxlength="3" id="objectFloorByUser" type="text" placeholder="0" inputmode="numeric">
                     </div>
                   </div>
                 </div>
@@ -240,7 +246,7 @@
                 <a class="BaseLayout_footerLink_a7Pag" href="/">Отзывы</a>
               </div>
               <div class="seven wide column BaseLayout_rightColumn_1jWiZ">
-                <a href="https://help.srgroup.ru/" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
+                <a href="#" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
                 <a id="offerLink" class="BaseLayout_footerLink_a7Pag">Пользовательское соглашение</a>
                 <a id="privacyPolicyLink" class="BaseLayout_footerLink_a7Pag">Политика обработки персональных данных</a>
                 <p class="BaseLayout_copyright_3iBAM">Все права защищены © 2022</p>
@@ -256,5 +262,6 @@
   </body>
   <script src='dist/jquery.min.js'></script>
   <script src='dist/selectbox.js'></script>
+  <script src='dist/maskedinput.min.js'></script>
   <script src='dist/main.js'></script>
 </html>

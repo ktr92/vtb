@@ -187,37 +187,35 @@
                             <b>Кредитный инспектор банка ВТБ </b>
                           </label>
                           <div class="Select_root__2yqJb">
-                            <!-- <div id="bankManagerSelect" role="combobox" aria-busy="false" aria-disabled="false" aria-expanded="false" class="ui fluid search selection dropdown Select_searchToInput__Kl-5X">
-                              <input aria-autocomplete="list" autocomplete="off" class="search" tabindex="0" type="text" value="">
-                              <div class="text" role="alert" aria-live="polite"></div>
-                              <i aria-hidden="true" class="dropdown icon"></i>
-                              <div aria-multiselectable="false" role="listbox" class="menu transition">
-                                <div class="message">Ничего не найдено</div>
-                              </div>
-                            </div> -->
-
+                            <!-- <div id="bankManagerSelect" role="combobox" aria-busy="false" aria-disabled="false" aria-expanded="false" class="ui fluid search selection dropdown Select_searchToInput__Kl-5X"><input aria-autocomplete="list" autocomplete="off" class="search" tabindex="0" type="text" value=""><div class="text" role="alert" aria-live="polite"></div><i aria-hidden="true" class="dropdown icon"></i><div aria-multiselectable="false" role="listbox" class="menu transition"><div class="message">Ничего не найдено</div></div></div> -->
                             <select name="" id="" class="selectbox">
                               <option value="">Ничего не найдено</option>
-                            </select><!-- /#.selectbox -->
+                            </select>
+                            <!-- /#.selectbox -->
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="Order_row_20pIF Order_column_mobile_2kSeT">
-                      <div class="required field Order_fullWidth_1HtTM">
+                      <div class="error required field Order_fullWidth_1HtTM">
                         <label class="Order_label_DR4L1">
                           <b class="Order_label_DR4L1 Order_labelWithPadding_IXSDC">ФИО заказчика оценки</b>
                         </label>
                         <div class="Order_row_20pIF Order_nullPadding_3KNls Order_column_mobile_2kSeT">
                           <div class=" Order_col_36Ya-">
                             <div>
-                              <div class="required field">
+                              <div class="error required field">
                                 <div class="ui fluid input 
-              Input_root__2YHmd
-              
-              ym-hide-content Order_input_3HkAm
-            ">
-                                  <input maxlength="80" placeholder="Фамилия" id="customerName_lastName" type="text" value="test" inputmode="text">
+                      Input_root__2YHmd
+                      
+                      ym-hide-content Order_input_3HkAm
+                    ">
+                                  <input maxlength="80" id="customerName_lastName" type="text" value="" inputmode="text" placeholder="Фамилия">
+                                </div>
+                                <div class="ui error message">
+                                  <div class="content">
+                                    <p>Введите фамилию</p>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -226,12 +224,13 @@
                             <div>
                               <div class="required field">
                                 <div class="ui fluid input 
-              Input_root__2YHmd
-              
-              ym-hide-content Order_input_3HkAm
-            ">
-                                  <input maxlength="80" placeholder="Имя" id="customerName_firstName" type="text" value="test" inputmode="text">
+                      Input_root__2YHmd
+                      
+                      ym-hide-content Order_input_3HkAm
+                    ">
+                                  <input maxlength="80" id="customerName_firstName" type="text" value="test" inputmode="text" placeholder="Имя">
                                 </div>
+                                
                               </div>
                             </div>
                           </div>
@@ -239,11 +238,11 @@
                             <div>
                               <div class="required field">
                                 <div class="ui fluid input 
-              Input_root__2YHmd
-              
-              ym-hide-content Order_input_3HkAm
-            ">
-                                  <input maxlength="80" placeholder="Отчество" id="customerName_patronymic" type="text" value="test" inputmode="text">
+                      Input_root__2YHmd
+                      
+                      ym-hide-content Order_input_3HkAm
+                    ">
+                                  <input maxlength="80" id="customerName_patronymic" type="text" value="test" inputmode="text" placeholder="Отчество">
                                 </div>
                               </div>
                             </div>
@@ -471,24 +470,9 @@
                             <option value="С 9 до 12">С 9 до 12</option>
                             <option value="С 12 до 16">С 12 до 16</option>
                             <option value="С 16 до 19">С 16 до 19</option>
-                          </select><!-- /# -->
-                         <!--  <div class="Select_root__2yqJb">
-                            <div id="inspectionTimeBlock" required="" role="listbox" aria-disabled="false" aria-expanded="false" aria-multiselectable="false" class="ui fluid selection dropdown Order_select_3EoxS" tabindex="0">
-                              <div class="text" role="alert" aria-live="polite"></div>
-                              <i aria-hidden="true" class="dropdown icon"></i>
-                              <div class="menu transition">
-                                <div role="option" aria-checked="false" aria-selected="true" class="selected item" style="pointer-events: all;">
-                                  <span class="text">С 9 до 12</span>
-                                </div>
-                                <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                                  <span class="text">С 12 до 16</span>
-                                </div>
-                                <div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;">
-                                  <span class="text">С 16 до 19</span>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
+                          </select>
+                          <!-- /# -->
+                          <!--  <div class="Select_root__2yqJb"><div id="inspectionTimeBlock" required="" role="listbox" aria-disabled="false" aria-expanded="false" aria-multiselectable="false" class="ui fluid selection dropdown Order_select_3EoxS" tabindex="0"><div class="text" role="alert" aria-live="polite"></div><i aria-hidden="true" class="dropdown icon"></i><div class="menu transition"><div role="option" aria-checked="false" aria-selected="true" class="selected item" style="pointer-events: all;"><span class="text">С 9 до 12</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">С 12 до 16</span></div><div role="option" aria-checked="false" aria-selected="false" class="item" style="pointer-events: all;"><span class="text">С 16 до 19</span></div></div></div></div> -->
                         </div>
                       </div>
                       <div class="Order_col_36Ya- Order_comment_2QcZq">
@@ -512,6 +496,12 @@
                         <div class="Order_textValue_2fkqL">
                           <div class="Order_text_3K6EJ">Статус оплаты:</div>
                           <div class="Order_value_3qUme">Нет оплаты</div>
+                        </div>
+                        <div class="Order_valueBlock_13E7R">
+                          <div class="Order_textValue_2fkqL">
+                            <div class="Order_text_3K6EJ">Стоимость услуги:</div>
+                            <div class="Order_value_3qUme">4900 рублей</div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -562,7 +552,14 @@
                     <button id="actionNextButton" class="ui large button Order_buttonStyle_2l_Se Order_nextButton_Vn89X">Далее</button>
                   </div>
                 </div>
-                <div id="bottomMessage" class="Order_row_20pIF Order_bottomMessage_2QnHy"></div>
+                <div id="bottomMessage" class="Order_row_20pIF Order_bottomMessage_2QnHy">
+                  <div class="ui large icon success message">
+                    <i aria-hidden="true" class="checkmark icon"></i>
+                    <div class="content">
+                      <p>Черновик успешно сохранен</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -580,7 +577,7 @@
                 <a class="BaseLayout_footerLink_a7Pag" href="/">Отзывы</a>
               </div>
               <div class="seven wide column BaseLayout_rightColumn_1jWiZ">
-                <a href="https://help.srgroup.ru/" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
+                <a href="#" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
                 <a id="offerLink" class="BaseLayout_footerLink_a7Pag">Пользовательское соглашение</a>
                 <a id="privacyPolicyLink" class="BaseLayout_footerLink_a7Pag">Политика обработки персональных данных</a>
                 <p class="BaseLayout_copyright_3iBAM">Все права защищены © 2022</p>
@@ -590,12 +587,38 @@
           <div class="BaseLayout_contractWithBank_1hxqT">
             <span>© ООО «ЭсАрДжи-АйТи» на&nbsp;основании партнерского Договора <span>№104/ЭА-22</span> от&nbsp;17.05.2022 </span>
           </div>
-        </div> 
+        </div>
       </div>
     </div>
-
-    <div class="ui page modals dimmer transition" id='read_info'><div class="ui modal transition visible active Order_offlineCompanyInfo_19SNV"><i aria-hidden="true" class="close icon"></i><div class="content"><h3>Информация для партнеров Банка (Агентств недвижимости и застройщиков)</h3><p>Информируем Вас о запуске пилотного проекта по Автоматическому распределению заказа на оценку квартиры оценщику, который с высокой вероятностью сможет его выполнить быстрее других и в полном соответствии с требованиями Банка.</p><p>Указанный проект реализуется в рамках стратегии Банка на ускорение ипотечного кредитного цикла, одним из этапов которого является оценка. Тестирование данной модели показало сокращение срока оценки не менее чем на 20%. Модель является динамической, учитывает скорость работы оценщиков и их пропускную способность, позволяет быстро реагировать на изменения в показателях работы оценщиков, определять и маршрутизировать заказ по линии fast track.</p><p><b>Преимущества от данной модели для Вас и Ваших клиентов:</b></p><ul class="Order_infoList_3ZTKn"><li>Сокращение срока проведения оценки и возможность быстрого выхода на сделку – тестирование модели показало ускорение не менее чем на 20%.</li><li>Сохранение клиентоориентированности оценщика при взаимодействии с Вами/ Вашим клиентом и гарантия качества: все оценщики, входящие в пул рекомендованных оценщиков, которым направляются заказы, быстро и качественно реагируют на запросы и пожелания клиентов, и Банк на постоянной основе контролирует качество их работы.</li></ul><p><b>Также хотим обратить Ваше внимание на следующие ВАЖНЫЕ моменты:</b></p><ul class="Order_infoList_3ZTKn"><li>Вам не нужно предоставлять документы БТИ - от оценщика не требуется анализ перепланировок;</li><li>наличие обременений на объекте не является стоп-фактором для оценки - оценщик проводит оценку с допущением об отсутствии обременений и это не влияют на стоимость;</li><li>после получения заказа оценщик обязан в течение 30 минут (рабочего времени) связаться с заказчиком для обсуждения всех нюансов;</li><li>незначительное отличие оценки от ДКП в меньшую сторону не влияет на максимальную сумму кредита;</li><li>настоятельно рекомендуем указывать достоверную стоимость приобретения в заказе на оценку - в поле «Объект покупаю за…»).</li></ul><p>Т.е. вне зависимости от того, кто именно будет выполнять Ваш заказ, Вам будет обеспечен привычно высокий уровень клиентоориентированности, качества и сервиса, и при этом результат будет получен Вами и Вашим клиентом быстрее, что также положительно влияет на Вашу личную репутацию в глазах и текущего, и будущих клиентов, не требуя дополнительных усилий с Вашей стороны.</p><p>Мы уверены, что упрощение, ускорение и повышение качества оценочного сервиса на благо клиента Банка является нашим с Вами общим приоритетом!</p></div></div></div>
-
+    <div class="ui page modals dimmer transition" id='read_info'>
+      <div class="ui modal transition visible active Order_offlineCompanyInfo_19SNV">
+        <i aria-hidden="true" class="close icon"></i>
+        <div class="content">
+          <h3>Информация для партнеров Банка (Агентств недвижимости и застройщиков)</h3>
+          <p>Информируем Вас о запуске пилотного проекта по Автоматическому распределению заказа на оценку квартиры оценщику, который с высокой вероятностью сможет его выполнить быстрее других и в полном соответствии с требованиями Банка.</p>
+          <p>Указанный проект реализуется в рамках стратегии Банка на ускорение ипотечного кредитного цикла, одним из этапов которого является оценка. Тестирование данной модели показало сокращение срока оценки не менее чем на 20%. Модель является динамической, учитывает скорость работы оценщиков и их пропускную способность, позволяет быстро реагировать на изменения в показателях работы оценщиков, определять и маршрутизировать заказ по линии fast track.</p>
+          <p>
+            <b>Преимущества от данной модели для Вас и Ваших клиентов:</b>
+          </p>
+          <ul class="Order_infoList_3ZTKn">
+            <li>Сокращение срока проведения оценки и возможность быстрого выхода на сделку – тестирование модели показало ускорение не менее чем на 20%.</li>
+            <li>Сохранение клиентоориентированности оценщика при взаимодействии с Вами/ Вашим клиентом и гарантия качества: все оценщики, входящие в пул рекомендованных оценщиков, которым направляются заказы, быстро и качественно реагируют на запросы и пожелания клиентов, и Банк на постоянной основе контролирует качество их работы.</li>
+          </ul>
+          <p>
+            <b>Также хотим обратить Ваше внимание на следующие ВАЖНЫЕ моменты:</b>
+          </p>
+          <ul class="Order_infoList_3ZTKn">
+            <li>Вам не нужно предоставлять документы БТИ - от оценщика не требуется анализ перепланировок;</li>
+            <li>наличие обременений на объекте не является стоп-фактором для оценки - оценщик проводит оценку с допущением об отсутствии обременений и это не влияют на стоимость;</li>
+            <li>после получения заказа оценщик обязан в течение 30 минут (рабочего времени) связаться с заказчиком для обсуждения всех нюансов;</li>
+            <li>незначительное отличие оценки от ДКП в меньшую сторону не влияет на максимальную сумму кредита;</li>
+            <li>настоятельно рекомендуем указывать достоверную стоимость приобретения в заказе на оценку - в поле «Объект покупаю за…»).</li>
+          </ul>
+          <p>Т.е. вне зависимости от того, кто именно будет выполнять Ваш заказ, Вам будет обеспечен привычно высокий уровень клиентоориентированности, качества и сервиса, и при этом результат будет получен Вами и Вашим клиентом быстрее, что также положительно влияет на Вашу личную репутацию в глазах и текущего, и будущих клиентов, не требуя дополнительных усилий с Вашей стороны.</p>
+          <p>Мы уверены, что упрощение, ускорение и повышение качества оценочного сервиса на благо клиента Банка является нашим с Вами общим приоритетом!</p>
+        </div>
+      </div>
+    </div>
   </body>
   <script src='dist/jquery.min.js'></script>
   <script src='dist/main.js'></script>
