@@ -84949,12 +84949,30 @@ sup .popup {
 	min-width: 211px !important;
 	transform: translateY(-100%) !important;
 }
+.reviewswrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.reviewswrapper > div {
+	margin-bottom: 30px;
+	width: 33% !important;
+}
+
+h1.reviewstitle {
+	max-width: 100% !important;
+	margin-bottom: 50px !important;
+	margin-top: 30px !important
+}
 
 @media (max-width: 800px) {
 	.bspb .PaymentPage_paymentPage_pOgPa .PaymentPage_message_2gpAv {
 		max-width: 80%;
 		margin: 100px auto;
+	}
+	.reviewswrapper > div {
+		margin-bottom: 30px;
+		width: 100% !important;
 	}
 }
 

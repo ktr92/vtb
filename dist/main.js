@@ -50,6 +50,7 @@ $(document).ready(function() {
 
     $('input[name="login"]').mask('+7 (999)999-99-99')
     $('#agentPhone').mask('+7 (999)999-99-99')
+    $('#reviewerPhone').mask('+7 (999)999-99-99')
 
 
     $('sup').on('mouseenter', function() {

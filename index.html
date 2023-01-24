@@ -676,7 +676,7 @@
                     <button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
                   </div>
                 </div>
-                <button class="Reviews_button_1EIsA" id="feedbackBlockButton">Оставить отзыв</button>
+                <button class="Reviews_button_1EIsA modalcall" id="feedbackBlockButton" data-modal='create-review'>Оставить отзыв</button>
               </div>
             </div>
           </div>
@@ -707,6 +707,40 @@
         </div>
       </div>
     </div>
+
+    <div class="ui page modals dimmer transition " id="create-review">
+      <div class="ui tiny scrolling modal transition visible active" style="min-width: 320px; border-radius: 0px; background-color: rgb(214, 214, 214);">
+        <i aria-hidden="true" class="close icon"></i>
+        <form class="ui form Reviews_form_725l1">
+          <div class="Reviews_form_header_kJ9yl">
+            <img src="/dist/img/review_icon.png" alt="Отзывы">
+            <p>Вы можете оставить свой отзыв</p>
+          </div>
+          <div class="field Reviews_field_DkHEa">
+            <div class="ui fluid input Input_root__2YHmd Reviews_input_3dx6K">
+              <input maxlength="20" placeholder="Номер заказа (необязательно)" id="reviewOrderNumber" type="text" value="" inputmode="text">
+            </div>
+          </div>
+          <div class="required field Reviews_field_DkHEa">
+            <div class="ui fluid input Input_root__2YHmd Reviews_input_3dx6K ym-hide-content">
+              <input placeholder="Фамилия Имя Отчество" id="reviewName" type="text" value="" inputmode="text">
+            </div>
+          </div>
+          <div class="required field Reviews_field_DkHEa">
+            <div class="ui fluid input Input_root__2YHmd Input_PHONE__RSmYJ Reviews_input_3dx6K ym-hide-content">
+              <input placeholder="+7 (___) ___-__-__" id="reviewerPhone" type="text" value="" inputmode="numeric">
+            </div>
+          </div>
+          <div class="required field Reviews_field_DkHEa">
+            <div class="field ui form Input_root__2YHmd  Reviews_textArea_FX_JD">
+              <textarea maxlength="255" placeholder="Напишите Ваш отзыв (до 255 символов)" id="feedbackText" rows="3"></textarea>
+            </div>
+          </div>
+          <button type="submit" id="sendReviewButton" class="ui large primary button Reviews_buttonSubmit_3Zv9I">Отправить</button>
+        </form>
+      </div>
+    </div>
+
   </body>
 <script src='dist/jquery.min.js'></script>
   <script src='dist/selectbox.js'></script>
