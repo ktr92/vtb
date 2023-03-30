@@ -1,105 +1,151 @@
 <html lang="ru">
-  <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <title>Официальный сервис заказа оценки коммерческой и жилой недвижимости для кредитования в ВТБ (ПАО)</title>
-    <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно.">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link href="dist/font.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="dist/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
-    <link rel="icon" href="dist/vtb_favicon.png" type="image/png">
-    
-    <link href="dist/app.css?433ce296ae3896ccbd04" rel="stylesheet">
-    <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно." data-react-helmet="true">
-  </head>
-  <body class="theme-kn vtb" wfd-invisible="true">
-    
-    <div id="root">
-      <div id="standardPageRoot" class="BaseLayout_root_2AHUj theme-kn">
-        <div class="BaseLayout_headerWrapper_1Py4s BaseLayout_headerBaseColor_2QYDj">
-          <div class="BaseLayout_headerInner_ATezY">
-            <a href="/">
-              <img id="mainLogo" src="dist/img/vtb_logo_blue.png?c61a103fbd24b56e890a34b1aa9b0211" class="BaseLayout_logoMainMenu_1LG_o">
-            </a>
-            <div class="BaseLayout_headerTopBlock_3wgwU">
-              <div class="BaseLayout_header_N0w0_">
-                <div class="BaseLayout_loginBlock_2oI3j">
-                  <h3 class="BaseLayout_headerTitle_14z40">Сервис заказа оценки коммерческой и жилой недвижимости рекомендован ВТБ</h3>
-                  <div class="BaseLayout_right_17Srl">
-                    <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlock_r6nN7 " href="/credit/order/">
-                      <div class="BaseLayout_image_-q7Sh">
-                        <i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i>
-                      </div>
-                      <span id="profileLink" class="ym-hide-content">+7986***8073</span>
-                    </a>
-                    <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlockLogoff_234fX" id="profileBlockLogoffLink">Выйти</a>
-                  </div>
-                </div>
-              </div>
-              <div class="BaseLayout_menuBlock_3vNk3">
-                <div class="BaseLayout_header_N0w0_"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="contentBlock" class="BaseLayout_content_3xq4B">
-          <div class="Auth_background_2j1GK"></div>
-          <div class="Auth_root_kDdMR" style="display: none;" wfd-invisible="true"></div>
-          <div class="Auth_root_kDdMR" style="display: flex;">
-            <h1 class="Main_title_3ti6n Main_selectorTitle_2GSYJ">Закажите оценку <br>недвижимости </h1>
-            <div class="Main_hr_3hpXS"></div>
-            <div class="Main_regionBlock_1fATW">
-              <div class="field">
-                <h3 class="Main_regionBlockTitle_1dR33 Main_individualCreditingTitle_NrrqW">Выберите тип кредитования: </h3>
-                <div class="Main_row_1kOZT">
-                  <div class="field Main_field_12f_A Main_individualCreditingField_1gaUV">
-                    <div class="ui radio checkbox">
-                      <input class="hidden" id="individualCredit" name="radioTypeOfCrediting" readonly="" tabindex="0" type="radio" value="INDIVIDUAL">
-                      <label for="individualCredit">Кредиты частным лицам</label>
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Официальный сервис заказа оценки коммерческой и жилой недвижимости для кредитования в ВТБ (ПАО)</title>
+  <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно.">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="dist/font.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="dist/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+  <link rel="icon" href="dist/vtb_favicon.png" type="image/png">
+
+  <link href="dist/app.css?433ce296ae3896ccbd04" rel="stylesheet">
+  <meta name="description" content="Электронный отчет об оценке. Быстро. Выгодно. Удобно." data-react-helmet="true">
+</head>
+
+<body class="theme-kn vtb" wfd-invisible="true">
+
+  <div id="root">
+    <div id="standardPageRoot" class="BaseLayout_root_2AHUj theme-kn">
+      <div class="BaseLayout_headerWrapper_1Py4s BaseLayout_headerBaseColor_2QYDj">
+        <div class="BaseLayout_headerInner_ATezY">
+          <a href="/">
+            <img id="mainLogo" src="dist/img/vtb_logo_blue.png?c61a103fbd24b56e890a34b1aa9b0211"
+              class="BaseLayout_logoMainMenu_1LG_o">
+          </a>
+          <div class="BaseLayout_headerTopBlock_3wgwU">
+            <div class="BaseLayout_header_N0w0_">
+              <div class="BaseLayout_loginBlock_2oI3j">
+                <h3 class="BaseLayout_headerTitle_14z40">Сервис заказа оценки коммерческой и жилой недвижимости
+                  рекомендован ВТБ</h3>
+                <div class="BaseLayout_right_17Srl">
+                  <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlock_r6nN7 " href="/credit/order/">
+                    <div class="BaseLayout_image_-q7Sh">
+                      <i aria-hidden="true" class="user circle icon BaseLayout_userLogo_1jtiQ"></i>
                     </div>
-                  </div>
-                  <div class="field Main_field_12f_A">
-                    <div class="ui radio checkbox">
-                      <input class="hidden" id="smallBusiness" name="radioTypeOfCrediting" readonly="" tabindex="0" type="radio" value="SMALL_BUSINESS">
-                      <label for="smallBusiness">Кредиты малому, среднему, крупному бизнесу</label>
-                    </div>
-                  </div>
+                    <span id="profileLink" class="ym-hide-content">+7986***8073</span>
+                  </a>
+                  <a class="BaseLayout_a_K6x9Q BaseLayout_profileBlockLogoff_234fX"
+                    id="profileBlockLogoffLink">Выйти</a>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="BaseLayout_footer_3qIfd" id="footer">
-          <div class="BaseLayout_footerContentBlock_3VMLK BaseLayout_footerContentBlockRight_3F0L8">
-            <div class="ui grid BaseLayout_footerContentWrapper_DAIsM">
-              <div class="four wide column">
-                <img src="dist/img/vtb_logo_blue.png?c61a103fbd24b56e890a34b1aa9b0211" class="ui image BaseLayout_footerLogo_2RRqv">
-              </div> 
-              <div class="four wide column BaseLayout_linksColumn_3uqwK">
-                <a class="BaseLayout_footerLink_a7Pag" href="/">Заказать оценку</a>
-                <a class="BaseLayout_footerLink_a7Pag" href="/">Как это работает</a>
-                <a class="BaseLayout_footerLink_a7Pag" href="/">Наши преимущества</a>
-                <a class="BaseLayout_footerLink_a7Pag" href="/">Отзывы</a>
-              </div>
-              <div class="seven wide column BaseLayout_rightColumn_1jWiZ">
-                <a href="#" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
-                <a id="offerLink" class="BaseLayout_footerLink_a7Pag">Пользовательское соглашение</a>
-                <a id="privacyPolicyLink" class="BaseLayout_footerLink_a7Pag">Политика обработки персональных данных</a>
-                <p class="BaseLayout_copyright_3iBAM">Все права защищены © 2022</p>
-              </div>
+            <div class="BaseLayout_menuBlock_3vNk3">
+              <div class="BaseLayout_header_N0w0_"></div>
             </div>
-          </div>
-          <div class="BaseLayout_contractWithBank_1hxqT">
-            <span>© ООО «ЭсАрДжи-АйТи» на&nbsp;основании партнерского Договора <span>№104/ЭА-22</span> от&nbsp;17.05.2022 </span>
           </div>
         </div>
       </div>
+      <div id="contentBlock" class="BaseLayout_content_3xq4B">
+        <div class="Auth_background_2j1GK"></div>
+        <div class="Auth_root_kDdMR" style="display: none;" wfd-invisible="true"></div>
+        <div class="Auth_root_kDdMR" style="display: flex;">
+          <h1 class="Main_title_3ti6n Main_selectorTitle_2GSYJ">Закажите оценку <br>недвижимости </h1>
+          <div class="Main_hr_3hpXS"></div>
+          <div class="Main_regionBlock_1fATW">
+            <div class="field">
+              <h3 class="Main_regionBlockTitle_1dR33 Main_individualCreditingTitle_NrrqW">Выберите тип кредитования:
+              </h3>
+              <div class="Main_row_1kOZT">
+                <div class="field Main_field_12f_A Main_individualCreditingField_1gaUV">
+                  <div class="ui radio checkbox">
+                    <input class="hidden" id="individualCredit" name="radioTypeOfCrediting" readonly="" tabindex="0"
+                      type="radio" value="INDIVIDUAL">
+                    <label for="individualCredit">Кредиты частным лицам</label>
+                  </div>
+                </div>
+                <div class="field Main_field_12f_A">
+                  <div class="ui radio checkbox">
+                    <input class="hidden" id="smallBusiness" name="radioTypeOfCrediting" readonly="" tabindex="0"
+                      type="radio" value="SMALL_BUSINESS">
+                    <label for="smallBusiness">Кредиты малому, среднему, крупному бизнесу</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="BaseLayout_footer_3qIfd" id="footer">
+        <div class="BaseLayout_footerContentBlock_3VMLK BaseLayout_footerContentBlockRight_3F0L8">
+          <div class="ui grid BaseLayout_footerContentWrapper_DAIsM">
+            <div class="four wide column">
+              <img src="dist/img/vtb_logo_blue.png?c61a103fbd24b56e890a34b1aa9b0211"
+                class="ui image BaseLayout_footerLogo_2RRqv">
+            </div>
+            <div class="four wide column BaseLayout_linksColumn_3uqwK">
+              <a class="BaseLayout_footerLink_a7Pag" href="/">Заказать оценку</a>
+              <a class="BaseLayout_footerLink_a7Pag" href="/">Как это работает</a>
+              <a class="BaseLayout_footerLink_a7Pag" href="/">Наши преимущества</a>
+              <a class="BaseLayout_footerLink_a7Pag" href="/">Отзывы</a>
+            </div>
+            <div class="seven wide column BaseLayout_rightColumn_1jWiZ">
+              <a href="#" target="_blank" class="BaseLayout_footerLink_a7Pag">Техническая поддержка</a>
+              <a id="offerLink" class="BaseLayout_footerLink_a7Pag">Пользовательское соглашение</a>
+              <a id="privacyPolicyLink" class="BaseLayout_footerLink_a7Pag">Политика обработки персональных данных</a>
+              <p class="BaseLayout_copyright_3iBAM">Все права защищены © 2022</p>
+            </div>
+          </div>
+        </div>
+        <div class="BaseLayout_contractWithBank_1hxqT">
+          <span>© ООО «ЭсАрДжи-АйТи» на&nbsp;основании партнерского Договора <span>№104/ЭА-22</span> от&nbsp;17.05.2022
+          </span>
+        </div>
+      </div>
     </div>
-  </body>
+  </div>
+
+
+  <div class="ui page modals dimmer transition  " id="modal_smallBusiness" style="justify-content: center;">
+    <div on="click" class="ui modal transition visible active Main_smallBusinessModal_3epHA">
+      <div class="Main_modalContent_3gxwZ content">
+        <p>Вы выбрали оценку для <b>кредитования малого, среднего или крупного бизнеса</b></p>
+        <p>Её <b>нельзя</b> будет использовать для кредитования физического лица</p>
+        <p>Продолжить заказ?</p>
+      </div>
+      <div class="actions Main_modalActions_afgte"><button value="SMALL_BUSINESS"
+          class="ui blue button Main_yesNoBtns_3nE08"><i aria-hidden="true" class="checkmark icon"></i>
+          Да</button><button class="ui red button Main_yesNoBtns_3nE08"><i aria-hidden="true" class="remove icon"></i>
+          Нет</button></div>
+    </div>
+  </div>
+
+
+
+</body>
 <script src='dist/jquery.min.js'></script>
-  <script src='dist/selectbox.js'></script>
-  <script src='dist/maskedinput.min.js'></script>
-  <script src='dist/main.js'></script>
+<script src='dist/selectbox.js'></script>
+<script src='dist/maskedinput.min.js'></script>
+<script src='dist/main.js'></script>
+
+<script>
+  $('input[type=radio][name=radioTypeOfCrediting]').on('change', function (e) {
+    if ($('#smallBusiness').is(':checked')) {
+      $(`#modal_smallBusiness`).addClass('visible').addClass('active').show()
+      $('body').addClass('dimmable dimmed scrolling')
+    }
+
+
+  })
+
+  $('.Main_yesNoBtns_3nE08').on('click', function () {
+    $(`#modal_smallBusiness`).removeClass('visible').removeClass('active').hide()
+  })
+</script>
+
 </html>
